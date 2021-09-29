@@ -1,0 +1,11 @@
+@mixin vwui-comp-font-reset(){
+     font-family:$vwui-font-family ;
+    font-size:$vwui-font-size-default;
+    font-style:normal;
+    font-weight:$vwui-font-weight-regular;
+    letter-spacing:0;
+    text-align:left;
+    text-indent:0;
+    text-shadow:none;
+    text-transform:none;
+}

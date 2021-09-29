@@ -1,0 +1,14 @@
+$vwui-font-heading-family:   $vwui-font-sans-cond-med;
+
+@mixin level-1-heading {
+  font-family: $vwui-font-heading-family;
+  font-size: map-get($font-sizes-rem, "vwui-font-size-4500");
+  letter-spacing: $vwui-character-spacing-05;
+  line-height: $vwui-line-height-one-x;
+}
+@mixin level-2-heading {
+  font-family: $vwui-font-heading-family;
+  font-size: map-get($font-sizes-rem, "vwui-font-size-3000");
+  letter-spacing: $vwui-character-spacing-05;
+  line-height: $vwui-line-height-one-and-a-quarter-x;
+}

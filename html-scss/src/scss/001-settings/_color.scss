@@ -1,0 +1,59 @@
+/* Color Theme Swatches in Hex */
+// brand colors
+$teal: #00bcb4;
+$orange: #ff8200;
+$black: #000000;
+$white:#ffffff;
+$gray: #7D8182;
+$current: currentColor;
+// info colors
+$red: #DC3545;
+$blue:#1B8DDE;
+$green:#05CE7C;
+
+//Opacity
+$opacity:(    
+    "90":0.90,
+    "75":0.75,
+); 
+
+$colors: (
+    "teal":#00bcb4,
+    "orange":#ff8200,
+    "black": #000000,
+    "white": #ffffff,
+    "gray":#7D8182,
+    "red":#DC3545,    
+    "blue":#1B8DDE,
+    "green":#05CE7C
+);
+
+$vwui-neutral-colors:(
+    "#{$systemPrefix}-color-neutral-20":darken((map-get($colors,"gray" )),30%),
+    "#{$systemPrefix}-color-neutral-35":darken((map-get($colors,"gray" )),15%),
+    "#{$systemPrefix}-color-neutral-50":map-get($colors,"gray" ),
+    "#{$systemPrefix}-color-neutral-65":lighten((map-get($colors,"gray" )),15%),
+    "#{$systemPrefix}-color-neutral-80":lighten((map-get($colors,"gray" )),30%),
+    "#{$systemPrefix}-color-neutral-90":lighten((map-get($colors,"gray" )),40%),
+);
+
+//Transparent colors
+// black
+$vwui-color-white-opacity-90:rgba($white,0.9);
+$vwui-color-white-opacity-75:rgba($white,0.75);
+// white
+$vwui-color-black-opacity-90:rgba($black,0.9);
+$vwui-color-black-opacity-75:rgba($black,0.75);
+// TEAL
+$vwui-color-teal-opacity-90:rgba($teal,0.9);
+$vwui-color-teal-opacity-75:rgba($teal,0.75);
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+
+
+$vwui-token-colors:(
+   "#{$systemPrefix}-color-accent-1":'map-get($colors,"teal" )',
+   "#{$systemPrefix}-color-accent-2":map-get($colors,"orange" ),
+   "#{$systemPrefix}-color-primary":map-get($colors,"black" ),
+   "#{$systemPrefix}-color-secondary":map-get($colors,"white" ),
+   "#{$systemPrefix}-color-feedback-error":map-get($colors,"red" ),
+   "#{$systemPrefix}-color-feedback-success":map-get($colors,"green" ),
+   "#{$systemPrefix}-color-feedback-info":map-get($colors,"blue" ),
+);
+
+
+// Surfaces / Backgrounds
+
+$vwui-color-surface-dark:map-get($vwui-token-colors,"#{$systemPrefix}-color-primary");
+$vwui-color-surface-medium:map-get($vwui-neutral-colors,"#{$systemPrefix}-color-neutral-80");
+$vwui-color-surface-light:map-get($vwui-neutral-colors,"#{$systemPrefix}-color-secondary");
+
+
+
+
+// Feedback colors
+$vwui-color-feedback-success:map-get($colors,"green");
+$vwui-color-feedback-error:map-get($colors,"red");
+$vwui-color-feedback-info:map-get($colors,"blue");
+
+
+// text colors
+$vwui-color-text-primary-on-light:map-get($vwui-neutral-colors,"#{$systemPrefix}-color-neutral-20");
+$vwui-color-text-primary-on-dark:map-get($vwui-token-colors,"#{$systemPrefix}-color-secondary");
+
+// Headings
+$vwui-color-heading-on-light:map-get($vwui-token-colors,"#{$systemPrefix}-color-primary");
+$vwui-color-heading-on-dark:map-get($vwui-token-colors,"#{$systemPrefix}-color-secondary");
+
+
+// icon color
+$vwui-color-icon-fill-on-dark:map-get($vwui-token-colors,"#{$systemPrefix}-color-secondary");
+$vwui-color-icon-fill-on-light:map-get($vwui-token-colors,"#{$systemPrefix}-color-primary");
