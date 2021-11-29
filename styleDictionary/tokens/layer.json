@@ -1,0 +1,44 @@
+{
+  "vwui-layer": {
+    "bottom": {
+      "value": "-100",
+      "description": "layer",
+      "type": "layer"
+    },
+    "default": {
+      "value": "1",
+      "description": "layer",
+      "type": "layer"
+    },
+    "sticky": {
+      "value": "100",
+      "description": "layer",
+      "type": "layer"
+    },
+    "dropdown": {
+      "value": "200",
+      "description": "layer",
+      "type": "layer"
+    },
+    "overlay": {
+      "value": "300",
+      "description": "layer",
+      "type": "layer"
+    },
+    "overlay": {
+      "value": "400",
+      "description": "layer",
+      "type": "layer"
+    },
+    "popup": {
+      "value": "500",
+      "description": "layer",
+      "type": "layer"
+    },
+    "top": {
+      "value": "2147483739",
+      "description": "layer",
+      "type": "layer"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "vwui-icon": {
+    "fill": {
+      "on-light": {
+        "value": "$vwui-color-black",
+        "description": "Icon fill on light",
+        "type": "iconFill"
+      },
+      "on-dark": {
+        "value": "$vwui-color-white",
+        "description": "Icon fill on light",
+        "type": "iconFill"
+      },
+      "on-medium": {
+        "value": "$vwui-color-black",
+        "description": "Icon fill on light",
+        "type": "iconFill"
+      },
+      "on-accent-1": {
+        "value": "$vwui-color-white",
+        "description": "Icon fill on light",
+        "type": "iconFill"
+      }
+    },
+    "size": {
+      "small": {
+        "value": "24px",
+        "description": "Icon sizing",
+        "type": "iconSizing"
+      },
+      "medium": {
+        "value": "36px",
+        "description": "Icon sizing",
+        "type": "iconSizing"
+      },
+      "large": {
+        "value": "85px",
+        "description": "Icon sizing",
+        "type": "iconSizing"
+      },
+      "x-large": {
+        "value": "100px",
+        "description": "Icon sizing",
+        "type": "iconSizing"
+      }
+    }
+  }
+}

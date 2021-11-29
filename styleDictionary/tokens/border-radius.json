@@ -1,0 +1,24 @@
+{
+  "vwui-radius": {
+    "sharp": {
+      "value": "0.25em",
+      "description": "Border radius",
+      "type": "borderRadius"
+    },
+    "soft": {
+      "value": "0.5em",
+      "description": "Border radius",
+      "type": "borderRadius"
+    },
+    "softer": {
+      "value": "1em",
+      "description": "Border radius",
+      "type": "borderRadius"
+    },
+    "round": {
+      "value": "10em",
+      "description": "Border radius",
+      "type": "borderRadius"
+    }
+  }
+}

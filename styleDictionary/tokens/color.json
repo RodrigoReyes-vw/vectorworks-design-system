@@ -1,0 +1,219 @@
+{
+  "vwui-color": {
+    "teal": {
+      "value": "#00bcb4",
+      "description": "Brand teal color",
+      "type": "color"
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "description": "Secondary brand color",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "description": "main brand color",
+      "type": "color"
+    },
+    "red": {
+      "value": "#DC3545",
+      "description": "red",
+      "type": "color"
+    },
+    "orange": {
+      "value": "#FF8200",
+      "description": "Brand orange color",
+      "type": "color"
+    },
+    "green": {
+      "value": "#05CE7C",
+      "description": "Green",
+      "type": "color"
+    },
+    "blue": {
+      "value": "#3B8DDE",
+      "description": "Blue",
+      "type": "color"
+    },
+    "magenta": {
+      "value": "#EE44BC",
+      "description": "Magenta",
+      "type": "color"
+    },
+    "yellow": {
+      "value": "#FDCD43",
+      "description": "Yellow",
+      "type": "color"
+    },
+    "neutral": {
+      "20": {
+        "value": "#F2F2F3",
+        "description": "neutral 20",
+        "type": "color"
+      },
+      "35": {
+        "value": "#CBCDCD",
+        "description": "neutral 35",
+        "type": "color"
+      },
+      "50": {
+        "value": "#A4A7A8",
+        "description": "Base Neutral color",
+        "type": "color"
+      },
+      "65": {
+        "value": "#7D8182",
+        "description": "neutral 65",
+        "type": "color"
+      },
+      "80": {
+        "value": "#575A5B",
+        "description": "neutral 80",
+        "type": "color"
+      },
+      "95": {
+        "value": "#323434",
+        "description": "neutral 95",
+        "type": "color"
+      }
+    },
+    "feedback": {
+      "success": {
+        "value": "$vwui-color-green",
+        "description": "Use this color to  indicate a successful interaction",
+        "type": "color"
+      },
+      "error": {
+        "value": "$vwui-color-red",
+        "description": "Use this color to  indicate an error has occurred",
+        "type": "color"
+      },
+      "info": {
+        "value": "$vwui-color-blue",
+        "description": "Use this color highlight an interaction area or highlight extra information",
+        "type": "color"
+      }
+    },
+    "background": {
+      "light": {
+        "value": "$vwui-color-white",
+        "description": "Lightest background color available, white",
+        "type": "color"
+      },
+      "medium": {
+        "value": "$vwui-color-neutral-20",
+        "description": "Medium background color",
+        "type": "color"
+      },
+      "dark": {
+        "value": "$vwui-color-black",
+        "description": "Darkest background color, black",
+        "type": "color"
+      },
+      "accent-1": {
+        "value": "$vwui-color-teal",
+        "description": "Accent color as background, teal",
+        "type": "color"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "$vwui-color-black",
+        "description": "Default color text on light and medium bg, used mostly on headings",
+        "type": "color"
+      },
+      "primary-on-dark": {
+        "value": "$vwui-color-white",
+        "description": "Default color text on dark background, used mostly on headings",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "$vwui-color-neutral-80",
+        "description": "Secondary text color on light and medium bg",
+        "type": "color"
+      },
+      "secondary-on-dark": {
+        "value": "$vwui-color-neutral-35",
+        "description": "Secondary text color on dark background",
+        "type": "color"
+      }
+    },
+    "heading": {
+      "on-light": {
+        "value": "$vwui-color-black",
+        "description": "Default Heading Color",
+        "type": "color"
+      },
+      "on-dark": {
+        "value": "$vwui-color-white",
+        "description": "Heading Color on white",
+        "type": "color"
+      }
+    }
+  },
+
+  "vwui-button": {
+    "color": {
+      "border": {
+        "primary": {
+          "value": "$vwui-color-white"
+        },
+        "primary-hover": {
+          "value": "$vwui-color-teal"
+        },
+        "primary-on-dark": {
+          "value": "$vwui-color-white"
+        },
+        "primary-hover-on-dark": {
+          "value": "$vwui-color-black"
+        },
+        "secondary": {
+          "value": "$vwui-color-black"
+        },
+        "secondary-hover": {
+          "value": "$vwui-color-black"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "$vwui-color-black"
+        },
+        "primary-hover": {
+          "value": "$vwui-color-white"
+        },
+        "primary-on-dark": {
+          "value": "$vwui-color-white"
+        },
+        "primary-hover-on-dark": {
+          "value": "$vwui-color-black"
+        },
+        "secondary": {
+          "value": "$vwui-color-black"
+        },
+        "secondary-hover": {
+          "value": "$vwui-color-white"
+        }
+      },
+      "background": {
+        "primary": {
+          "value": "$vwui-color-black"
+        },
+        "primary-hover": {
+          "value": "$vwui-color-teal"
+        },
+        "primary-on-dark": {
+          "value": "$vwui-color-black"
+        },
+        "primary-hover-on-dark": {
+          "value": "$vwui-color-white"
+        },
+        "secondary": {
+          "value": "$vwui-color-white"
+        },
+        "secondary-hover": {
+          "value": "$vwui-color-white"
+        }
+      }
+    }
+  }
+}

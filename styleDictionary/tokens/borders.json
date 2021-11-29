@@ -1,0 +1,33 @@
+{
+  "vwui-border": {
+    "width": {
+      "thin": {
+        "value": "1px",
+        "description": "smallest border width",
+        "type": "borderWidth"
+      },
+      "normal": {
+        "value": "2px",
+        "description": "smallest border width",
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": "5px",
+        "description": "smallest border width",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "on-light": {
+        "value": "$vwui-color-white",
+        "description": "white border color",
+        "type": "borderColor"
+      },
+      "on-dark": {
+        "value": "$vwui-color-black",
+        "description": "black border color",
+        "type": "borderColor"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "vwui-font": {
+    "family": {
+      "din": {
+        "value": "DIN",
+        "description": "DIN",
+        "type": "font",
+        "comment": "Font sections"
+      }
+    },
+    "size": {
+      "size-100": {
+        "value": "16px",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-62": {
+        "value": "$vw-font-size-100*.625",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-81": {
+        "value": "$vw-font-size-100*.8125",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-87": {
+        "value": "$vw-font-size-100*.875",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-112": {
+        "value": "$vw-font-size-100*1.125",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-125": {
+        "value": "$vw-font-size-100*1.25",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-150": {
+        "value": "$vw-font-size-100*1.5",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-175": {
+        "value": "$vw-font-size-100*1.75",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-225": {
+        "value": "$vw-font-size-100*2.25",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-300": {
+        "value": "$vw-font-size-100*3",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-325": {
+        "value": "$vw-font-size-100*3.25",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-450": {
+        "value": "$vw-font-size-100*4.5",
+        "description": "base font size",
+        "type": "fontSizes"
+      },
+      "size-575": {
+        "value": "$vw-font-size-100*5.75",
+        "description": "base font size",
+        "type": "fontSizes"
+      }
+    },
+    "weight": {
+      "light": {
+        "value": "300",
+        "description": "Font weight light",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "400",
+        "description": "Font weight regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "500",
+        "description": "Font weight Medium",
+        "type": "fontWeights"
+      }
+    },
+    "width": {
+      "regular": {
+        "value": "regular",
+        "description": "Font Width regular",
+        "type": "fontWeights"
+      },
+      "condensed": {
+        "value": "regular",
+        "description": "Font Width condensed",
+        "type": "fontWeights"
+      }
+    },
+    "char-space": {
+      "0": {
+        "value": "0em",
+        "description": "Font character spacing",
+        "type": "fontCharSpace"
+      },
+      "1x": {
+        "value": "0.025em",
+        "description": "Font Width condensed",
+        "type": "fontCharSpace"
+      },
+      "2x": {
+        "value": "$vwui-font-char-space-1x*2",
+        "description": "",
+        "type": "fontCharSpace"
+      },
+      "3x": {
+        "value": "$vwui-font-char-space-1x*3",
+        "description": "",
+        "type": "fontCharSpace"
+      },
+      "extended": {
+        "value": ".01em",
+        "description": "",
+        "type": "fontCharSpace"
+      }
+    },
+    "line-height": {
+      "normal": {
+        "value": "1",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "1x": {
+        "value": "1+.125",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "2x": {
+        "value": ".125*2+1",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "4x": {
+        "value": ".125*4+1",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "6x": {
+        "value": ".125*6+1",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "16x": {
+        "value": ".125*16+1",
+        "description": "",
+        "type": "fontLineHeight"
+      },
+      "20x": {
+        "value": ".125*20+1",
+        "description": "",
+        "type": "fontLineHeight"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "vwui-animation": {
+    "easing": {
+      "smooth": {
+        "value": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+        "description": "",
+        "type": "easing"
+      },
+      "ease-out": {
+        "value": "cubic-bezier(.04, .91, .58, 1)",
+        "description": "",
+        "type": "easing"
+      },
+      "bounce-small": {
+        "value": "cubic-bezier(.12, 1.11, .41, 1.1)",
+        "description": "",
+        "type": "easing"
+      },
+      "bounce-large": {
+        "value": "cubic-bezier(.36,1.8,.28,1.12)",
+        "description": "",
+        "type": "easing"
+      }
+    },
+    "duration": {
+      "instant": {
+        "value": "0s",
+        "description": "",
+        "type": "duration"
+      },
+      "fast": {
+        "value": "0.15s",
+        "description": "",
+        "type": "duration"
+      },
+      "normal": {
+        "value": "0.30s",
+        "description": "",
+        "type": "duration"
+      },
+      "s;pw": {
+        "value": "0.60s",
+        "description": "",
+        "type": "duration"
+      }
+    }
+  }
+}

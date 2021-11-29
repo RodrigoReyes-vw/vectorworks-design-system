@@ -11,6 +11,9 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "axios": "^0.24.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.5",
     "vitepress": "^0.20.0"
   }
 }

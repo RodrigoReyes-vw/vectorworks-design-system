@@ -1,0 +1,64 @@
+{
+  "vwui-space": {
+    "one-x": {
+      "value": "8px",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "zero-x": {
+      "value": "$vwui-space-one-x*0",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "half-x": {
+      "value": "$vwui-space-one-x*0.5",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "one-and-a-half-x": {
+      "value": "$vwui-space-one-x*1.5",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "two-x": {
+      "value": "$vwui-space-one-x*2",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "three-x": {
+      "value": "$vwui-space-one-x*3",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "four-x": {
+      "value": "$vwui-space-one-x*4",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "five-x": {
+      "value": "$vwui-space-one-x*5",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "six-x": {
+      "value": "$vwui-space-one-x*6",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "eight-x": {
+      "value": "$vwui-space-one-x*8",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "twelve-x": {
+      "value": "$vwui-space-one-x*12",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+    "sixteenth-x": {
+      "value": "$vwui-space-one-x*16",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    }
+  }
+}
