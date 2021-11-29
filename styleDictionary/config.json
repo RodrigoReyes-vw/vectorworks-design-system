@@ -10,7 +10,7 @@
       },
       "files": [
         {
-          "destination": "../../../scss/tokens/_tokens.scss",
+          "destination": "../../../assets/scss/tokens/_tokens.scss",
           "format": "scss/variables"
         }
       ]

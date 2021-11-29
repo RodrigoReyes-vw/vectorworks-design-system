@@ -1,0 +1,43 @@
+// Main font sizes
+@use "sass:map";
+$font-sizes-px:(
+    "#{$systemPrefix}-font-size-0062": 10px,
+    "#{$systemPrefix}-font-size-0081": 13px,
+    "#{$systemPrefix}-font-size-0875": 14px,
+    "#{$systemPrefix}-font-size-1000": $s-core__font-size,
+    "#{$systemPrefix}-font-size-1125": 18px,
+    "#{$systemPrefix}-font-size-1250": 20px,
+    "#{$systemPrefix}-font-size-1500": 24px,
+    "#{$systemPrefix}-font-size-1750": 28px,
+    "#{$systemPrefix}-font-size-2250": 36px,
+    "#{$systemPrefix}-font-size-2500": 40px,
+    "#{$systemPrefix}-font-size-3000": 48px,
+    "#{$systemPrefix}-font-size-4500": 72px,
+    "#{$systemPrefix}-font-size-5750": 92px
+);
+
+// ? create map for sizes in rem
+$font-sizes-rem:();
+
+// * push and convert px sizes to rem map
+
+
+@each $name, $size in $font-sizes-px {
+    $rem:s-core-px-to-rem($size);
+   $font-sizes-rem: map.set($font-sizes-rem,"#{$name}",$rem);
+   };
+ 
+
+
+// set button component font-size
+
+$vwui-button-font:map-get($font-sizes-rem, "#{$systemPrefix}-font-size--1000" );
+
+
+// ! reset font variables
+
+$vwui-font-family:'Arial';
+$vwui-font-size-default:$s-core__font-size;
+$vwui-font-weight-regular:"normal";
+
+

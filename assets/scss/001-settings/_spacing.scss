@@ -1,0 +1,43 @@
+@use "sass:map";
+$vwui-space-one-x: 1rem !default;
+$vwui-space-sizes:(
+   "#{$systemPrefix}-space-0":$vwui-space-one-x*0,
+   "#{$systemPrefix}-space-quarter-x":$vwui-space-one-x*.25,
+   "#{$systemPrefix}-space-half-x":$vwui-space-one-x*.5,
+   "#{$systemPrefix}-space-three-quarter-x":$vwui-space-one-x*.75,
+   "#{$systemPrefix}-space-one-x":$vwui-space-one-x*1,
+   "#{$systemPrefix}-space-one-and-a-quarter-x":$vwui-space-one-x*1.25,
+   "#{$systemPrefix}-space-one-and-a-half-x":$vwui-space-one-x*1.5,
+   "#{$systemPrefix}-space-two-x":$vwui-space-one-x*2,
+   "#{$systemPrefix}-space-two-and-a-half-x":$vwui-space-one-x*2.5,
+   "#{$systemPrefix}-space-three-x":$vwui-space-one-x*3,
+   "#{$systemPrefix}-space-three-and-a-half-x":$vwui-space-one-x*3.5,
+   "#{$systemPrefix}-space-four-x":$vwui-space-one-x*4,
+   "#{$systemPrefix}-space-four-and-a-half-x":$vwui-space-one-x*4.5,
+   "#{$systemPrefix}-space-five-x":$vwui-space-one-x*5,
+   "#{$systemPrefix}-space-six-x":$vwui-space-one-x*6,
+   "#{$systemPrefix}-space-six-and-a-half-x":$vwui-space-one-x*6.5,
+   "#{$systemPrefix}-space-seven-x":$vwui-space-one-x*7,
+   "#{$systemPrefix}-space-seven-and-a-half-x":$vwui-space-one-x*7.5,
+   "#{$systemPrefix}-space-eight-x":$vwui-space-one-x*8,
+   "#{$systemPrefix}-space-eight-and-a-three-quarter-x":$vwui-space-one-x*8.75,
+   "#{$systemPrefix}-space-nine-and-a-half-x":$vwui-space-one-x*9.5,
+   "#{$systemPrefix}-space-ten-x":$vwui-space-one-x*10,
+);
+
+
+$vwui-space-rem:();
+
+// * push and convert px sizes to rem map
+
+
+@each $name, $size in $vwui-space-sizes {
+    $rem:s-core-px-to-rem($size);
+   $vwui-space-rem: map.set($vwui-space-rem,"#{$name}",$rem);
+  };
+ 
+
+
+   // paddings
+
+

@@ -1,0 +1,19 @@
+@use "sass:math";
+
+
+// * Timing/tweens
+$vwui-easing-default: cubic-bezier(0.25, 0.1, 0.25, 1);
+$vwui-easing-bounce:cubic-bezier(.36,1.8,.28,1.12);
+
+// Duration 
+
+// Main duration
+
+$vwui-duration-default: 0.3s !default;
+
+// Duration variants
+
+$vwui-duration--none: $vwui-duration-default * 0 !default;
+$vwui-duration--slow: $vwui-duration-default * 2 !default;
+$vwui-duration--normal: $vwui-duration-default !default;
+$vwui-duration--fast: math.div( $vwui-duration-default , 2);
