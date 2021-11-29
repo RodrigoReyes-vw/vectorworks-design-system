@@ -128,12 +128,12 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{vwui-color.neutral.80}",
+        "value": "{vwui-color.neutral.80.value}",
         "description": "Secondary text color on light and medium bg",
         "type": "color"
       },
       "secondary-on-dark": {
-        "value": "{vwui-color.neutral.35}",
+        "value": "{vwui-color.neutral.35.value}",
         "description": "Secondary text color on dark background",
         "type": "color"
       }

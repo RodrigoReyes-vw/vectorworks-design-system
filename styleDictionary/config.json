@@ -24,6 +24,15 @@
           "format": "scss/variables"
         }
       ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "format": "css/variables",
+          "destination": "../docs/docs/.vitepress/theme/variables.css"
+        }
+      ]
     }
   }
 }
