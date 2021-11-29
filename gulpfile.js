@@ -6,7 +6,7 @@ const autoprefixer = require("autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
 
 function css() {
-  return src("./assets/scss/**/*.{scss,sass}")
+  return src("./assets/scss/main.scss")
     .pipe(
       sass({
         includePaths: ["./node_modules"],
@@ -15,7 +15,7 @@ function css() {
     )
     .pipe(postcss([autoprefixer()]))
     .pipe(sourcemaps.write())
-    .pipe(dest("dist/css"));
+    .pipe(dest("dist/css/"));
 }
 
 function watcher(cb) {
