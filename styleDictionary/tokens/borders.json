@@ -19,12 +19,12 @@
     },
     "color": {
       "on-light": {
-        "value": "$vwui-color-white",
+        "value": "{vwui-color.white.value}",
         "description": "white border color",
         "type": "borderColor"
       },
       "on-dark": {
-        "value": "$vwui-color-black",
+        "value": "{vwui-color.black.value}",
         "description": "black border color",
         "type": "borderColor"
       }

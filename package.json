@@ -27,7 +27,5 @@
     "sass": "^1.36.0",
     "style-dictionary": "^3.0.1"
   },
-  "dependencies": {
-    "accoutrement": "^3.0.1"
-  }
+  "dependencies": {}
 }

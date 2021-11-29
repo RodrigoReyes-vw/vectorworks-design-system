@@ -2,22 +2,22 @@
   "vwui-icon": {
     "fill": {
       "on-light": {
-        "value": "$vwui-color-black",
+        "value": "{vwui-color.black.value}",
         "description": "Icon fill on light",
         "type": "iconFill"
       },
       "on-dark": {
-        "value": "$vwui-color-white",
+        "value": "{vwui-color.white.value}",
         "description": "Icon fill on light",
         "type": "iconFill"
       },
       "on-medium": {
-        "value": "$vwui-color-black",
+        "value": "{vwui-color.black.value}",
         "description": "Icon fill on light",
         "type": "iconFill"
       },
       "on-accent-1": {
-        "value": "$vwui-color-white",
+        "value": "{vwui-color.white.value}",
         "description": "Icon fill on light",
         "type": "iconFill"
       }

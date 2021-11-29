@@ -6,57 +6,57 @@
       "type": "spacing"
     },
     "zero-x": {
-      "value": "$vwui-space-one-x*0",
+      "value": "{vwui-space.one-x.value}*0",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "half-x": {
-      "value": "$vwui-space-one-x*0.5",
+      "value": "{vwui-space.one-x.value}*0.5",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "one-and-a-half-x": {
-      "value": "$vwui-space-one-x*1.5",
+      "value": "{vwui-space.one-x.value}*1.5",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "two-x": {
-      "value": "$vwui-space-one-x*2",
+      "value": "{vwui-space.one-x.value}*2",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "three-x": {
-      "value": "$vwui-space-one-x*3",
+      "value": "{vwui-space.one-x.value}*3",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "four-x": {
-      "value": "$vwui-space-one-x*4",
+      "value": "{vwui-space.one-x.value}*4",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "five-x": {
-      "value": "$vwui-space-one-x*5",
+      "value": "{vwui-space.one-x.value}*5",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "six-x": {
-      "value": "$vwui-space-one-x*6",
+      "value": "{vwui-space.one-x.value}*6",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "eight-x": {
-      "value": "$vwui-space-one-x*8",
+      "value": "{vwui-space.one-x.value}*8",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "twelve-x": {
-      "value": "$vwui-space-one-x*12",
+      "value": "{vwui-space.one-x.value}*12",
       "description": "Spacing base unit",
       "type": "spacing"
     },
     "sixteenth-x": {
-      "value": "$vwui-space-one-x*16",
+      "value": "{vwui-space.one-x.value}*16",
       "description": "Spacing base unit",
       "type": "spacing"
     }
