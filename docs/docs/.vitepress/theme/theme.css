@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "DIN";
+  font-weight: 300;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din-light.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "DIN";
+  font-weight: 400;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "DIN";
+  font-weight: 500;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din-medium.woff2");
+}
+
+@font-face {
+  font-family: "DIN";
+  font-weight: 400;
+  font-stretch: condensed;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din-cond.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "DIN";
+  font-stretch: condensed;
+  font-weight: 500;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din-cond-med.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "DIN";
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://s3.amazonaws.com/download2.nemetschek.net/web/static-assets/fonts/Din/din-italic.woff2")
+    format("woff2");
+}
+
+:root {
+  --font-family-base: "DIN", Arial, sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+.token-pallette {
+  width: 880px;
+}

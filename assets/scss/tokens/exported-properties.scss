@@ -1,0 +1,7 @@
+@import "./tokens-map";
+
+:root {
+  @each $name, $value in $vw {
+    --#{$name}: #{$value};
+  }
+}

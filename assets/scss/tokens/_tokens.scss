@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 29 Nov 2021 22:36:19 GMT
+// Generated on Tue, 30 Nov 2021 21:02:25 GMT
 
 $vwui-icon-size-x-large: 100px;
 $vwui-icon-size-large: 85px;
@@ -35,16 +35,16 @@ $vwui-layer-bottom: -100;
 $vwui-space-one-x: 8px;
 $vwui-font-line-height-delta: .125;
 $vwui-font-line-height-normal: 1;
-$vwui-font-char-space-extended: .01em;
+$vwui-font-char-space-extended: .1em;
 $vwui-font-char-space-1x: 0.025em;
 $vwui-font-char-space-0: 0em;
-$vwui-font-width-condensed: regular;
+$vwui-font-width-condensed: condensed;
 $vwui-font-width-regular: regular;
 $vwui-font-weight-medium: 500;
 $vwui-font-weight-regular: 400;
 $vwui-font-weight-light: 300;
 $vwui-font-base-size: 16px;
-$vwui-font-family-din: DIN; // Font sections
+$vwui-font-family-din: "DIN"; // Font sections
 $vwui-color-neutral-95: #323434;
 $vwui-color-neutral-80: #575A5B;
 $vwui-color-neutral-65: #7D8182;
@@ -64,8 +64,8 @@ $vwui-icon-fill-on-accent-1: $vwui-color-white;
 $vwui-icon-fill-on-medium: $vwui-color-black;
 $vwui-icon-fill-on-dark: $vwui-color-white;
 $vwui-icon-fill-on-light: $vwui-color-black;
-$vwui-border-color-on-dark: $vwui-color-black;
-$vwui-border-color-on-light: $vwui-color-white;
+$vwui-border-color-on-dark: $vwui-color-white;
+$vwui-border-color-on-light: $vwui-color-black;
 $vwui-space-sixteenth-x: $vwui-space-one-x*16;
 $vwui-space-twelve-x: $vwui-space-one-x*12;
 $vwui-space-eight-x: $vwui-space-one-x*8;
@@ -82,20 +82,20 @@ $vwui-font-line-height-16x: $vwui-font-line-height-delta*16+1;
 $vwui-font-line-height-6x: $vwui-font-line-height-delta*6+1;
 $vwui-font-line-height-4x: $vwui-font-line-height-delta*4+1;
 $vwui-font-line-height-2x: $vwui-font-line-height-delta*2+1;
-$vwui-font-line-height-1x: 1+$vwui-font-line-height-delta;
+$vwui-font-line-height-1x: $vwui-font-line-height-delta+1;
 $vwui-font-char-space-3x: $vwui-font-char-space-1x*3;
 $vwui-font-char-space-2x: $vwui-font-char-space-1x*2;
-$vwui-font-size-size-125: $vwui-font-base-size*1.25;
-$vwui-font-size-size-87: $vwui-font-base-size*.875;
 $vwui-font-size-575: $vwui-font-base-size*5.75;
 $vwui-font-size-450: $vwui-font-base-size*4.5;
 $vwui-font-size-325: $vwui-font-base-size*3.25;
 $vwui-font-size-300: $vwui-font-base-size*3;
 $vwui-font-size-225: $vwui-font-base-size*2.25;
-$vwui-font-size-175: $vwui-font-base-size*1.75;
-$vwui-font-size-150: $vwui-font-base-size*1.5;
-$vwui-font-size-112: $vwui-font-base-size*1$vwui-font-line-height-delta;
+$vwui-font-size-175: $vwui-font-base-size * 1.75;
+$vwui-font-size-150: $vwui-font-base-size * 1.5;
+$vwui-font-size-125: $vwui-font-base-size*1.25;
+$vwui-font-size-112: $vwui-font-base-size*1.125;
 $vwui-font-size-100: $vwui-font-base-size*1;
+$vwui-font-size-87: $vwui-font-base-size*.875;
 $vwui-font-size-81: $vwui-font-base-size*.8125;
 $vwui-font-size-62: $vwui-font-base-size*.625;
 $vwui-button-color-background-secondary-hover: $vwui-color-white;

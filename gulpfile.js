@@ -17,6 +17,16 @@ function css() {
     .pipe(sourcemaps.write())
     .pipe(dest("dist/css/"));
 }
+function createVariables() {
+  return src("./assets/scss/tokens/exported-properties.scss")
+    .pipe(
+      sass({
+        includePaths: ["./node_modules"],
+        fiber: Fiber,
+      }).on("error", sass.logError)
+    )
+    .pipe(dest("./docs/docs/.vitepress/theme/"));
+}
 
 function watcher(cb) {
   watch("assets/scss/**/*.{scss,sass}", css, cb);
@@ -24,3 +34,4 @@ function watcher(cb) {
 
 exports.css = css;
 exports.watcher = watcher;
+exports.createVariables = createVariables;
