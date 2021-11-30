@@ -25,13 +25,18 @@
         }
       ]
     },
-    "css": {
-      "transformGroup": "css",
+    "cssVars": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "options": {
+        "outputReferences": false,
+        "showFileHeader": true
+      },
       "files": [
         {
-          "format": "css/variables",
-          "outputReferences": true,
-          "destination": "../docs/docs/.vitepress/theme/variables.css"
+          "destination": "../../../assets/scss/tokens/_tokens-map.scss",
+          "format": "scss/map-flat",
+          "mapName": "vw"
         }
       ]
     }

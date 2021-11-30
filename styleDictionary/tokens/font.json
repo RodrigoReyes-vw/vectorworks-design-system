@@ -2,7 +2,7 @@
   "vwui-font": {
     "family": {
       "din": {
-        "value": "\"DIN\", Arial, sans-serif",
+        "value": "\"DIN\"",
         "description": "DIN",
         "type": "font",
         "comment": "Font sections"
@@ -15,68 +15,68 @@
     },
     "size": {
       "62": {
-        "value": "calc({vwui-font.base-size.value}*.625)",
+        "value": "{vwui-font.base-size.value}*.625",
         "description": "base font size",
         "units": "px",
         "type": "fontSizes"
       },
       "81": {
-        "value": "calc({vwui-font.base-size.value}*.8125)",
+        "value": "{vwui-font.base-size.value}*.8125",
         "description": "base font size",
         "type": "fontSizes"
       },
       "100": {
-        "value": "calc({vwui-font.base-size.value}*1)",
+        "value": "{vwui-font.base-size.value}*1",
         "description": "base font size",
         "type": "fontSizes"
       },
-      "size-87": {
-        "value": "calc({vwui-font.base-size.value}*.875)",
+      "87": {
+        "value": "{vwui-font.base-size.value}*.875",
         "description": "base font size",
         "type": "fontSizes"
       },
       "112": {
-        "value": "calc({vwui-font.base-size.value}*1.125)",
+        "value": "{vwui-font.base-size.value}*1.125",
         "description": "base font size",
         "type": "fontSizes"
       },
-      "size-125": {
-        "value": "calc({vwui-font.base-size.value}*1.25)",
+      "125": {
+        "value": "{vwui-font.base-size.value}*1.25",
         "description": "base font size",
         "type": "fontSizes"
       },
       "150": {
-        "value": "calc({vwui-font.base-size.value} * 1.5)",
+        "value": "{vwui-font.base-size.value} * 1.5",
         "description": "base font size",
         "type": "fontSizes"
       },
       "175": {
-        "value": "calc(calc({vwui-font.base-size.value} * 1.75))",
+        "value": "{vwui-font.base-size.value} * 1.75",
         "description": "base font size",
         "type": "fontSizes"
       },
       "225": {
-        "value": "calc({vwui-font.base-size.value}*2.25)",
+        "value": "{vwui-font.base-size.value}*2.25",
         "description": "base font size",
         "type": "fontSizes"
       },
       "300": {
-        "value": "calc({vwui-font.base-size.value}*3)",
+        "value": "{vwui-font.base-size.value}*3",
         "description": "base font size",
         "type": "fontSizes"
       },
       "325": {
-        "value": "calc({vwui-font.base-size.value}*3.25)",
+        "value": "{vwui-font.base-size.value}*3.25",
         "description": "base font size",
         "type": "fontSizes"
       },
       "450": {
-        "value": "calc({vwui-font.base-size.value}*4.5)",
+        "value": "{vwui-font.base-size.value}*4.5",
         "description": "base font size",
         "type": "fontSizes"
       },
       "575": {
-        "value": "calc({vwui-font.base-size.value}*5.75)",
+        "value": "{vwui-font.base-size.value}*5.75",
         "description": "base font size",
         "type": "fontSizes"
       }
@@ -105,7 +105,7 @@
         "type": "fontWeights"
       },
       "condensed": {
-        "value": "regular",
+        "value": "condensed",
         "description": "Font Width condensed",
         "type": "fontWeights"
       }
@@ -123,17 +123,17 @@
       },
 
       "2x": {
-        "value": "calc({vwui-font.char-space.1x.value}*2)",
+        "value": "{vwui-font.char-space.1x.value}*2",
         "description": "",
         "type": "fontCharSpace"
       },
       "3x": {
-        "value": "calc({vwui-font.char-space.1x.value}*3)",
+        "value": "{vwui-font.char-space.1x.value}*3",
         "description": "",
         "type": "fontCharSpace"
       },
       "extended": {
-        "value": ".01em",
+        "value": ".1em",
         "description": "",
         "type": "fontCharSpace"
       }
@@ -150,32 +150,32 @@
         "type": "fontLineHeight"
       },
       "1x": {
-        "value": "calc({vwui-font.line-height.delta.value}+1)",
+        "value": "{vwui-font.line-height.delta.value}+1",
         "description": "",
         "type": "fontLineHeight"
       },
       "2x": {
-        "value": "calc({vwui-font.line-height.delta.value}*2+1)",
+        "value": "{vwui-font.line-height.delta.value}*2+1",
         "description": "",
         "type": "fontLineHeight"
       },
       "4x": {
-        "value": "calc({vwui-font.line-height.delta.value}*4+1)",
+        "value": "{vwui-font.line-height.delta.value}*4+1",
         "description": "",
         "type": "fontLineHeight"
       },
       "6x": {
-        "value": "calc({vwui-font.line-height.delta.value}*6+1)",
+        "value": "{vwui-font.line-height.delta.value}*6+1",
         "description": "",
         "type": "fontLineHeight"
       },
       "16x": {
-        "value": "calc({vwui-font.line-height.delta.value}*16+1)",
+        "value": "{vwui-font.line-height.delta.value}*16+1",
         "description": "",
         "type": "fontLineHeight"
       },
       "20x": {
-        "value": "calc({vwui-font.line-height.delta.value}*20+1)",
+        "value": "{vwui-font.line-height.delta.value}*20+1",
         "description": "",
         "type": "fontLineHeight"
       }
