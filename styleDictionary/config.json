@@ -30,6 +30,7 @@
       "files": [
         {
           "format": "css/variables",
+          "outputReferences": true,
           "destination": "../docs/docs/.vitepress/theme/variables.css"
         }
       ]
