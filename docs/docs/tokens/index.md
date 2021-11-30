@@ -13,39 +13,39 @@ import FontToken from '../../components/FontToken.vue'
 ### Pallette
 <table class="token-pallette">
     <tbody>        
-            <ColorToken token-name="color-black"/>
-            <ColorToken token-name="color-white"/>
-            <ColorToken token-name="color-teal"/>
-            <ColorToken token-name="color-orange"/>
-            <ColorToken token-name="color-red"/>
-            <ColorToken token-name="color-green"/> 
-            <ColorToken token-name="color-blue"/>
-            <ColorToken token-name="color-magenta"/>
-            <ColorToken token-name="color-yellow"/>
-            <ColorToken token-name="color-neutral-20"/>
-            <ColorToken token-name="color-neutral-35"/>
-            <ColorToken token-name="color-neutral-50"/>
-            <ColorToken token-name="color-neutral-65"/>
-            <ColorToken token-name="color-neutral-80"/>
-            <ColorToken token-name="color-neutral-95"/>       
+            <ColorToken token-value="#000000" token-name="color-black"/>
+            <ColorToken token-value="#FFFFFF" token-name="color-white"/>
+            <ColorToken token-value="#00bcb4" token-name="color-teal"/>
+            <ColorToken token-value="#FF8200" token-name="color-orange"/>
+            <ColorToken token-value="#DC3545" token-name="color-red"/>
+            <ColorToken token-value="#05CE7C" token-name="color-green"/> 
+            <ColorToken token-value="#3B8DDE" token-name="color-blue"/>
+            <ColorToken token-value="#EE44BC" token-name="color-magenta"/>
+            <ColorToken token-value="#FDCD43" token-name="color-yellow"/>
+            <ColorToken token-value="#F2F2F3" token-name="color-neutral-20"/>
+            <ColorToken token-value="#CBCDCD" token-name="color-neutral-35"/>
+            <ColorToken token-value="#A4A7A8" token-name="color-neutral-50"/>
+            <ColorToken token-value="#7D8182" token-name="color-neutral-65"/>
+            <ColorToken token-value="#575A5B" token-name="color-neutral-80"/>
+            <ColorToken token-value="#323434" token-name="color-neutral-95"/>       
     </tbody>
 </table>
 
 ### Feedback
 <table class="token-pallette">
     <tbody>    
-        <ColorToken token-name="color-feedback-success"/>
-        <ColorToken token-name="color-feedback-error"/>
-        <ColorToken token-name="color-feedback-info"/>
+        <ColorToken token-value="#05CE7C" token-name="color-feedback-success"/>
+        <ColorToken token-value="#DC3545" token-name="color-feedback-error"/>
+        <ColorToken token-value="#3B8DDE" token-name="color-feedback-info"/>
     </tbody>
 </table>
 
 ### Background
 <table class="token-pallette">
     <tbody>    
-        <ColorToken token-name="color-background-light"/>
-        <ColorToken token-name="color-background-dark"/>
-        <ColorToken token-name="color-background-medium"/>
+        <ColorToken token-value="#FFFFFF" token-name="color-background-light"/>
+        <ColorToken token-value="#F2F2F3" token-name="color-background-dark"/>
+        <ColorToken token-value="#000000" token-name="color-background-medium"/>
     </tbody>
 </table>
 

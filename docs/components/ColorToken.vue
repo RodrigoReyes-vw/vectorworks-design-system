@@ -6,17 +6,14 @@ export default {
       type: String,
       required: true,
     },
+    tokenValue: {
+      type: String,
+      required: false,
+    },
   },
   computed: {
     tokenVarName() {
       return `var(--vwui-${this.tokenName})`;
-    },
-    tokenValue() {
-      const bodyStyles = window.getComputedStyle(document.body);
-      const tokenValue = bodyStyles.getPropertyValue(
-        `--vwui-${this.tokenName}`
-      );
-      return tokenValue;
     },
   },
 };

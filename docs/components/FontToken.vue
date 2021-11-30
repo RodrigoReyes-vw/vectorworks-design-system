@@ -21,10 +21,10 @@ export default {
       return `var(--vwui-${this.tokenName})`;
     },
     tokenValue() {
-      const bodyStyles = window.getComputedStyle(document.body);
-      const tokenValue = bodyStyles.getPropertyValue(
-        `--vwui-${this.tokenName}`
-      );
+      // const bodyStyles = window.getComputedStyle(document.body);
+      // const tokenValue = bodyStyles.getPropertyValue(
+      //   `--vwui-${this.tokenName}`
+      // );
       return tokenValue;
     },
     tokenStyle() {
@@ -51,7 +51,7 @@ export default {
     <td ref="swatch" width="600" :style="tokenStyle">
       {{ `vwui-${tokenName}` }}
     </td>
-    <td width="200" class="value">{{ tokenValue }}</td>
+    <td width="200" class="value">{{}}</td>
   </tr>
 </template>
 
