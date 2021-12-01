@@ -254,7 +254,7 @@ import BorderToken from '../../components/BorderToken.vue'
     </tbody>
 </table>
 
-  ### Border color
+  ### Border Radius
 <table class="token-pallette">
     <tbody>
     <BorderToken token-type="radius" token-name="radius-sharp" token-value="0.25em" />
