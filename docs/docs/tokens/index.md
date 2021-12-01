@@ -4,6 +4,7 @@ import FontToken from '../../components/FontToken.vue'
 import SpacingToken from '../../components/SpacingToken.vue'
 import OpacityToken from '../../components/OpacityToken.vue'
 import AnimationToken from '../../components/AnimationToken.vue'
+import LayerToken from '../../components/LayerToken.vue'
 </script>
 # Tokens
 
@@ -219,3 +220,17 @@ import AnimationToken from '../../components/AnimationToken.vue'
         <AnimationToken token-type="duration" token-value="0.60s" token-name="animation-duration-slow"/>
       </tbody>
 </table>
+
+### Layer
+<table class="token-pallette">
+    <tbody>
+    <LayerToken token-name="layer-bottom" token-value="-100" />
+    <LayerToken token-name="layer-default" token-value="0" />
+    <LayerToken token-name="layer-sticky" token-value="100" />
+    <LayerToken token-name="layer-dropdown" token-value="200" />
+    <LayerToken token-name="layer-overlay" token-value="300" />
+    <LayerToken token-name="layer-modal" token-value="400" />
+    <LayerToken token-name="layer-popup" token-value="500" />
+    <LayerToken token-name="layer-top" token-value="2147483739" />
+    </tbody>
+ </table>

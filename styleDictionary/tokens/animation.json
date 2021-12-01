@@ -38,7 +38,7 @@
         "description": "",
         "type": "duration"
       },
-      "s;pw": {
+      "slow": {
         "value": "0.60s",
         "description": "",
         "type": "duration"
