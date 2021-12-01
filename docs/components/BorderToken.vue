@@ -29,6 +29,7 @@ export default {
         payload = {
           "border-radius": this.tokenVarName,
           "background-color": "black",
+          "border-color": "black",
         };
       }
 
