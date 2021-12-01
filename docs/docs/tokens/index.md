@@ -209,3 +209,13 @@ import AnimationToken from '../../components/AnimationToken.vue'
     </tbody>
 </table>
 
+
+### Duration
+<table class="token-pallette">
+    <tbody>
+        <AnimationToken token-type="duration" token-value="0" token-name="animation-duration-instant"/>
+        <AnimationToken token-type="duration" token-value="0.15s" token-name="animation-duration-fast"/>
+        <AnimationToken token-type="duration" token-value="0.30s" token-name="animation-duration-normal"/>
+        <AnimationToken token-type="duration" token-value="0.60s" token-name="animation-duration-slow"/>
+      </tbody>
+</table>

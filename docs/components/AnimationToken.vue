@@ -31,7 +31,21 @@ export default {
   methods: {
     togglePlay() {
       this.isPlaying = !this.isPlaying;
-      console.log("taco");
+    },
+    validateStyle() {
+      let payload = {};
+
+      if (this.tokenType === "easing") {
+        payload = {
+          "animation-timing-function": this.tokenVarName,
+          "animation-duration": "1s",
+        };
+      } else {
+        payload = {
+          "animation-duration": this.tokenVarName,
+        };
+      }
+      return payload;
     },
   },
   computed: {
@@ -39,14 +53,8 @@ export default {
       return `var(--vwui-${this.tokenName})`;
     },
     tokenStyle() {
-      let payload = {};
       let playStatus = {};
-      if (this.tokenType === "easing") {
-        payload = {
-          "animation-timing-function": this.tokenVarName,
-          "animation-duration": "1s",
-        };
-      }
+
       if (this.isPlaying == false) {
         playStatus = {
           "animation-play-state": "paused",
@@ -56,7 +64,7 @@ export default {
           "animation-play-state": "running",
         };
       }
-      return { ...payload, ...playStatus };
+      return { ...this.validateStyle(), ...playStatus };
     },
   },
 };

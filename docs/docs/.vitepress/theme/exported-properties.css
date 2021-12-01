@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Nov 2021 23:42:18 GMT
+ * Generated on Wed, 01 Dec 2021 19:53:13 GMT
  */
 :root {
   --vwui-color-teal: #00bcb4;
@@ -122,7 +122,7 @@
   --vwui-animation-duration-instant: 0s;
   --vwui-animation-duration-fast: 0.15s;
   --vwui-animation-duration-normal: 0.3s;
-  --vwui-animation-duration-s-pw: 0.6s;
+  --vwui-animation-duration-slow: 0.6s;
   --vwui-icon-fill-on-light: #000000;
   --vwui-icon-fill-on-dark: #FFFFFF;
   --vwui-icon-fill-on-medium: #000000;
