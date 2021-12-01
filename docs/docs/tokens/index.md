@@ -197,7 +197,8 @@ import AnimationToken from '../../components/AnimationToken.vue'
     </tbody>
 </table>
 
-## Animation
+ ## Animation
+
 ### Easing
 <table class="token-pallette">
     <tbody>
@@ -206,10 +207,5 @@ import AnimationToken from '../../components/AnimationToken.vue'
         <AnimationToken token-value=" cubic-bezier(0.12, 1.11, 0.41, 1.1)" token-name="animation-easing-bounce-small"/>
         <AnimationToken token-value="cubic-bezier(0.36, 1.8, 0.28, 1.12)" token-name="animation-easing-bounce-large"/>
     </tbody>
-
-### Easing
-<table class="token-pallette">
-    <tbody>
-     <AnimationToken token-type="duration" token-value="cubic-bezier(0.36, 1.8, 0.28, 1.12)" token-name="animation-duration-instant"/>
-    </tbody>
 </table>
+

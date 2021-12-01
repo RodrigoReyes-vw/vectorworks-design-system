@@ -47,11 +47,6 @@ export default {
           "animation-duration": "1s",
         };
       }
-      else {components: {
-          payload = {
-          "animation-duration": "this.tokenVarName",
-        };
-      },}
       if (this.isPlaying == false) {
         playStatus = {
           "animation-play-state": "paused",
