@@ -5,6 +5,7 @@ import SpacingToken from '../../components/SpacingToken.vue'
 import OpacityToken from '../../components/OpacityToken.vue'
 import AnimationToken from '../../components/AnimationToken.vue'
 import LayerToken from '../../components/LayerToken.vue'
+import BorderToken from '../../components/BorderToken.vue'
 </script>
 # Tokens
 
@@ -221,7 +222,7 @@ import LayerToken from '../../components/LayerToken.vue'
       </tbody>
 </table>
 
-### Layer
+## Layer
 <table class="token-pallette">
     <tbody>
     <LayerToken token-name="layer-bottom" token-value="-100" />
@@ -234,3 +235,31 @@ import LayerToken from '../../components/LayerToken.vue'
     <LayerToken token-name="layer-top" token-value="2147483739" />
     </tbody>
  </table>
+
+ ## Borders
+ ### Border width
+<table class="token-pallette">
+    <tbody>
+        <BorderToken token-name="border-width-thin" token-value="1px" />
+         <BorderToken token-name="border-width-normal" token-value="2px" />
+         <BorderToken token-name="border-width-thick" token-value="5px" />
+    </tbody>
+ </table>
+
+  ### Border color
+<table class="token-pallette">
+    <tbody>
+     <BorderToken token-type="color" token-name="border-color-on-light" token-value="#000000" />
+      <BorderToken token-type="color" token-name="border-color-on-dark" token-value="#FFFFFF" />
+    </tbody>
+</table>
+
+  ### Border color
+<table class="token-pallette">
+    <tbody>
+    <BorderToken token-type="radius" token-name="radius-sharp" token-value="0.25em" />
+    <BorderToken token-type="radius" token-name="radius-soft" token-value="0.5em" />
+    <BorderToken token-type="radius" token-name="radius-softer" token-value="1em" />
+    <BorderToken token-type="radius" token-name="radius-round" token-value="10em" />
+    </tbody>
+</table>
