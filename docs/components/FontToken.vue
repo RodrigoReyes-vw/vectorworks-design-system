@@ -6,10 +6,9 @@ export default {
       type: String,
       required: true,
     },
-    tokenCompValue: {
+    tokenValue: {
       type: String,
       required: false,
-      default: "",
     },
     tokenType: {
       type: String,
@@ -20,13 +19,7 @@ export default {
     tokenVarName() {
       return `var(--vwui-${this.tokenName})`;
     },
-    tokenValue() {
-      // const bodyStyles = window.getComputedStyle(document.body);
-      // const tokenValue = bodyStyles.getPropertyValue(
-      //   `--vwui-${this.tokenName}`
-      // );
-      return tokenValue;
-    },
+
     tokenStyle() {
       let payload = {};
       if (this.tokenType === "size") {
@@ -51,7 +44,7 @@ export default {
     <td ref="swatch" width="600" :style="tokenStyle">
       {{ `vwui-${tokenName}` }}
     </td>
-    <td width="200" class="value">{{}}</td>
+    <td width="200" class="value">{{ tokenValue }}</td>
   </tr>
 </template>
 

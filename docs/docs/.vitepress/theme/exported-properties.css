@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Nov 2021 21:02:25 GMT
+ * Generated on Tue, 30 Nov 2021 23:42:18 GMT
  */
 :root {
   --vwui-color-teal: #00bcb4;
@@ -84,6 +84,7 @@
   --vwui-font-line-height-20x: 3.5;
   --vwui-space-one-x: 8px;
   --vwui-space-zero-x: 0px;
+  --vwui-space-quarter-x: 2px;
   --vwui-space-half-x: 4px;
   --vwui-space-one-and-a-half-x: 12px;
   --vwui-space-two-x: 16px;

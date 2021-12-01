@@ -10,6 +10,12 @@
       "description": "Spacing base unit",
       "type": "spacing"
     },
+    "quarter-x": {
+      "value": "{vwui-space.one-x.value}*0.25",
+      "description": "Spacing base unit",
+      "type": "spacing"
+    },
+
     "half-x": {
       "value": "{vwui-space.one-x.value}*0.5",
       "description": "Spacing base unit",
