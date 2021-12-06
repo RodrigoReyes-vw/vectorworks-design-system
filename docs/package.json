@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "axios": "^0.24.0",
-    "sass": "^1.43.5",
     "vitepress": "^0.20.0"
   }
 }

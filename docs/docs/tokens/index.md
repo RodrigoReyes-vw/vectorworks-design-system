@@ -1,11 +1,13 @@
 <script setup>
-import ColorToken from '../../components/ColorToken.vue'
-import FontToken from '../../components/FontToken.vue'
-import SpacingToken from '../../components/SpacingToken.vue'
-import OpacityToken from '../../components/OpacityToken.vue'
-import AnimationToken from '../../components/AnimationToken.vue'
-import LayerToken from '../../components/LayerToken.vue'
-import BorderToken from '../../components/BorderToken.vue'
+import ColorToken from '../../components/documentation/ColorToken.vue'
+import FontToken from '../../components/documentation/FontToken.vue'
+import SpacingToken from '../../components/documentation/SpacingToken.vue'
+import OpacityToken from '../../components/documentation/OpacityToken.vue'
+import AnimationToken from '../../components/documentation/AnimationToken.vue'
+import LayerToken from '../../components/documentation/LayerToken.vue'
+import BorderToken from '../../components/documentation/BorderToken.vue'
+import TextMixinToken from '../../components/documentation/TextMixinToken.vue'
+
 </script>
 # Tokens
 
@@ -263,3 +265,145 @@ import BorderToken from '../../components/BorderToken.vue'
     <BorderToken token-type="radius" token-name="radius-round" token-value="10em" />
     </tbody>
 </table>
+
+
+## Font Styles
+
+<div class="token-pallette">
+  <TextMixinToken
+    mixin-name="body-text-primary"
+    family="din"
+    size="100"
+    weight="light"
+    width="regular"
+    line-height="6x"
+    letter-spacing="3x"
+    :values="{
+        family:'din',
+        size:'16px',
+        weight:'light',
+        width:'normal',
+        lineH:'1.75',
+        charSpace:'0.075em'
+    }"
+   />
+    <TextMixinToken
+    mixin-name="body-text-large"
+    family="din"
+    size="122"
+    weight="light"
+    width="regular"
+    line-height="6x"
+    letter-spacing="3x"
+    :values="{
+        family:'din',
+        size:'18px',
+        weight:'light',
+        width:'normal',
+        lineH:'1.75',
+        charSpace:'0.075em'
+    }"
+   />
+   <TextMixinToken
+    mixin-name="vwui-heading-level-1"
+    family="din"
+    size="450"
+    weight="medium"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'72px',
+        weight:'medium',
+        width:'condensed',
+        lineH:'1',
+        charSpace:'0.05em'
+    }"
+   />
+      <TextMixinToken
+    mixin-name="vwui-heading-level-2"
+    family="din"
+    size="300"
+    weight="medium"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'48px',
+        weight:'medium',
+        width:'condensed',
+        lineH:'1.125',
+        charSpace:'0.05em'
+    }"
+   />
+    <TextMixinToken
+    mixin-name="vwui-heading-thin-level-2"
+    family="din"
+    size="300"
+    weight="light"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'48px',
+        weight:'light',
+        width:'condensed',
+        lineH:'1.125',
+        charSpace:'0.05em'
+    }"
+   />
+      <TextMixinToken
+    mixin-name="vwui-heading-level-3"
+    family="din"
+    size="225"
+    weight="medium"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'36px',
+        weight:'medium',
+        width:'condensed',
+        lineH:'1.125',
+        charSpace:'0.05em'
+    }"
+   />
+         <TextMixinToken
+    mixin-name="vwui-heading-level-4"
+    family="din"
+    size="150"
+    weight="medium"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'24px',
+        weight:'medium',
+        width:'condensed',
+        lineH:'1.125',
+        charSpace:'0.05em'
+    }"
+   />
+            <TextMixinToken
+    mixin-name="vwui-heading-level-5"
+    family="din"
+    size="125"
+    weight="medium"
+    width="condensed"
+    line-height="1"
+    letter-spacing="2x"
+    :values="{
+        family:'din',
+        size:'20px',
+        weight:'medium',
+        width:'condensed',
+        lineH:'1.125',
+        charSpace:'0.05em'
+    }"
+   />
+</div>
