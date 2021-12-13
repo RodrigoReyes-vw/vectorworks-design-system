@@ -41,6 +41,9 @@
 
 :root {
   --font-family-base: "DIN", Arial, sans-serif;
+  --c-brand: #0f00ff;
+  --c-bran-light: #035397;
+  --c-divider: var(--c-brand);
 }
 body {
   scroll-behavior: smooth;
