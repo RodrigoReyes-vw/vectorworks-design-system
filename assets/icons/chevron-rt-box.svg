@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VW/Icons/chevron-rt-box</title>
+    <defs>
+        <path d="M-5.00000006e-08,-5.00000006e-08 L-5.00000006e-08,23.9999999 L23.9999999,23.9999999 L23.9999999,-5.00000006e-08 L-5.00000006e-08,-5.00000006e-08 Z M23.25,23.25 L0.749999953,23.25 L0.749999953,0.749999953 L23.25,0.749999953 L23.25,23.25 Z M10.725,16.2 L15,12 L10.8,7.79999998 L10.2,8.24999998 L13.95,12 L10.2,15.75 L10.725,16.2 Z" id="path-1"></path>
+    </defs>
+    <g id="VW/Icons/chevron-rt-box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Group" mask="url(#mask-2)" fill="#000000">
+            <g id="🎨-color">
+                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

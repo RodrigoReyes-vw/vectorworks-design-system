@@ -1,0 +1,65 @@
+.vwui-button {
+  width: max-content;
+  border: 1px solid transparent;
+  background-color: var(--button-background-color);
+  color: var(--button-font-color);
+  border-color: var(--button-border-color);
+  padding-top: $vwui-space-two-x;
+  padding-bottom: $vwui-space-two-x;
+  padding-left: $vwui-space-three-x;
+  padding-right: $vwui-space-three-x;
+  text-transform: uppercase;
+  font-size: $vwui-font-size-87;
+  letter-spacing: $vwui-font-char-space-3x;
+  display: block;
+  transition: background-color $vwui-animation-duration-slow
+    $vwui-animation-easing-ease-out;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.vwui-button[data-kind="ghost"] {
+  --button-background-color: transparent;
+  --button-border-color: #{$vwui-color-primary-1};
+  --button-font-color: #{$vwui-color-primary-1};
+  &:hover {
+    --button-background-color: #{$vwui-color-primary-1};
+    --button-border-color: #{$vwui-color-primary-1};
+    --button-font-color: #{$vwui-color-primary-2};
+  }
+}
+
+.vwui-button[data-kind="solid"] {
+  --button-background-color: #{$vwui-color-primary-1};
+  --button-border-color: #{$vwui-color-primary-1};
+  --button-font-color: #{$vwui-color-primary-2};
+  &:hover {
+    --button-background-color: #{$vwui-color-secondary-1};
+    --button-border-color: #{$vwui-color-secondary-1};
+    --button-font-color: #{$vwui-color-primary-2};
+  }
+}
+
+.vwui-button[data-kind="ghost"][data-inverted="true"] {
+  --button-background-color: transparent;
+  --button-border-color: #{$vwui-color-primary-2};
+  --button-font-color: #{$vwui-color-primary-2};
+  &:hover {
+    --button-background-color: #{$vwui-color-primary-2};
+    --button-border-color: #{$vwui-color-primary-2};
+    --button-font-color: #{$vwui-color-primary-1};
+  }
+}
+
+.vwui-button[data-kind="solid"][data-inverted="true"] {
+  --button-background-color: #{$vwui-color-primary-2};
+  --button-border-color: #{$vwui-color-primary-2};
+  --button-font-color: #{$vwui-color-primary-1};
+  &:hover {
+    --button-background-color: #{$vwui-color-secondary-1};
+    --button-border-color: #{$vwui-color-secondary-1};
+    --button-font-color: #{$vwui-color-primary-2};
+  }
+}

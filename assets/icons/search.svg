@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VW/Icons/search</title>
+    <defs>
+        <path d="M23.9999999,22.8 L17.7,16.575 C19.2,14.85 20.1,12.6 20.1,10.125 C20.1,4.57499995 15.6,0.0749999503 10.05,0.0749999503 C4.49999995,0.0749999503 -5.00000006e-08,4.57499995 -5.00000006e-08,10.125 C-5.00000006e-08,15.675 4.49999995,20.175 10.05,20.175 C12.525,20.175 14.775,19.275 16.575,17.775 L22.875,24 L23.9999999,22.8 Z M18.525,10.125 C18.525,14.775 14.7,18.525 10.05,18.525 C5.39999997,18.525 1.57499996,14.775 1.57499996,10.125 C1.57499996,5.47499997 5.39999997,1.72499996 10.05,1.72499996 C14.7,1.72499996 18.525,5.47499997 18.525,10.125 Z" id="path-1"></path>
+    </defs>
+    <g id="VW/Icons/search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Group" mask="url(#mask-2)" fill="#000000">
+            <g id="🎨-color">
+                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

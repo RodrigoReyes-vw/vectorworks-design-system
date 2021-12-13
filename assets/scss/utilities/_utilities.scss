@@ -1,0 +1,26 @@
+.vwui-u-background-primary-1 {
+  background-color: $vwui-color-background-primary-1 !important;
+}
+
+.vwui-u-background-primary-2 {
+  background-color: $vwui-color-background-primary-2 !important;
+}
+
+.vwui-u-background-neutral-20 {
+  background-color: $vwui-color-background-neutral-20 !important;
+}
+
+.vwui-u-background-busy {
+  background-image: url("https://res.cloudinary.com/vectorworks-mktg/image/upload/v1639324178/Rodrigo_tests_/blue-steel/v3cizuepprlnswpcvbkk.jpg") !important;
+}
+
+.vwui-u-inset-2x {
+  padding: $vwui-space-two-x;
+}
+
+.vwui-u-flow > * + * {
+  margin-bottom: var(--flow-space, 1em);
+}
+// .vwui-u-flow > * {
+//   margin-bottom: var(--flow-space, 1em);
+// }

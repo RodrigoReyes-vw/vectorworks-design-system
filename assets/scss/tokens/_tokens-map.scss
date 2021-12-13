@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 06 Dec 2021 15:01:59 GMT
+ * Generated on Thu, 09 Dec 2021 22:07:50 GMT
  */
 
 $vw: (
@@ -14,6 +14,10 @@ $vw: (
   'vwui-color-blue': #3B8DDE,
   'vwui-color-magenta': #EE44BC,
   'vwui-color-yellow': #FDCD43,
+  'vwui-color-primary-1': #000000,
+  'vwui-color-primary-2': #FFFFFF,
+  'vwui-color-secondary-1': #00bcb4,
+  'vwui-color-secondary-2': #FF8200,
   'vwui-color-neutral-20': #F2F2F3,
   'vwui-color-neutral-35': #CBCDCD,
   'vwui-color-neutral-50': #A4A7A8,
@@ -23,22 +27,23 @@ $vw: (
   'vwui-color-feedback-success': #05CE7C,
   'vwui-color-feedback-error': #DC3545,
   'vwui-color-feedback-info': #3B8DDE,
-  'vwui-color-background-light': #FFFFFF,
-  'vwui-color-background-medium': #F2F2F3,
-  'vwui-color-background-dark': #000000,
-  'vwui-color-background-accent-1': #00bcb4,
+  'vwui-color-background-primary-2': #FFFFFF,
+  'vwui-color-background-primary-1': #000000,
+  'vwui-color-background-neutral-20': #F2F2F3,
+  'vwui-color-background-neutral-80': #575A5B,
+  'vwui-color-background-secondary-1': #00bcb4,
   'vwui-color-text-primary': #000000,
   'vwui-color-text-primary-on-dark': #FFFFFF,
   'vwui-color-text-secondary': #575A5B,
   'vwui-color-text-secondary-on-dark': #CBCDCD,
   'vwui-color-heading-on-light': #000000,
   'vwui-color-heading-on-dark': #FFFFFF,
-  'vwui-button-color-border-primary': #FFFFFF,
-  'vwui-button-color-border-primary-hover': #00bcb4,
-  'vwui-button-color-border-primary-on-dark': #FFFFFF,
-  'vwui-button-color-border-primary-hover-on-dark': #000000,
-  'vwui-button-color-border-secondary': #000000,
-  'vwui-button-color-border-secondary-hover': #000000,
+  'vwui-button-color-border-solid': #FFFFFF,
+  'vwui-button-color-border-solid-hover': #00bcb4,
+  'vwui-button-color-border-solid-on-dark': #FFFFFF,
+  'vwui-button-color-border-solid-hover-on-dark': #000000,
+  'vwui-button-color-border-ghost': #000000,
+  'vwui-button-color-border-ghost-hover': #000000,
   'vwui-button-color-text-primary': #000000,
   'vwui-button-color-text-primary-hover': #FFFFFF,
   'vwui-button-color-text-primary-on-dark': #FFFFFF,

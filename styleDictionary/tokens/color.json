@@ -45,6 +45,26 @@
       "description": "Yellow",
       "type": "color"
     },
+    "primary-1": {
+      "value": "{vwui-color.black.value}",
+      "description": "black",
+      "type": "color"
+    },
+    "primary-2": {
+      "value": "{vwui-color.white.value}",
+      "description": "white",
+      "type": "color"
+    },
+    "secondary-1": {
+      "value": "{vwui-color.teal.value}",
+      "description": "Teal",
+      "type": "color"
+    },
+    "secondary-2": {
+      "value": "{vwui-color.orange.value}",
+      "description": "Orange",
+      "type": "color"
+    },
     "neutral": {
       "20": {
         "value": "#F2F2F3",
@@ -95,35 +115,41 @@
       }
     },
     "background": {
-      "light": {
-        "value": "{vwui-color.white.value}",
+      "primary-2": {
+        "value": "{vwui-color.primary-2.value}",
         "description": "Lightest background color available, white",
         "type": "color"
       },
-      "medium": {
+      "primary-1": {
+        "value": "{vwui-color.primary-1.value}",
+        "description": "Darkest background color, black",
+        "type": "color"
+      },
+      "neutral-20": {
         "value": "{vwui-color.neutral.20.value}",
         "description": "Medium background color",
         "type": "color"
       },
-      "dark": {
-        "value": "{vwui-color.black.value}",
-        "description": "Darkest background color, black",
+      "neutral-80": {
+        "value": "{vwui-color.neutral.80.value}",
+        "description": "Medium background color",
         "type": "color"
       },
-      "accent-1": {
-        "value": "{vwui-color.teal.value}",
-        "description": "Accent color as background, teal",
+
+      "secondary-1": {
+        "value": "{vwui-color.secondary-1.value}",
+        "description": "Secondary color 1, teal",
         "type": "color"
       }
     },
     "text": {
       "primary": {
-        "value": "{vwui-color.black.value}",
+        "value": "{vwui-color.primary-1.value}",
         "description": "Default color text on light and medium bg, used mostly on headings",
         "type": "color"
       },
       "primary-on-dark": {
-        "value": "{vwui-color.white.value}",
+        "value": "{vwui-color.primary-2.value}",
         "description": "Default color text on dark background, used mostly on headings",
         "type": "color"
       },
@@ -140,12 +166,12 @@
     },
     "heading": {
       "on-light": {
-        "value": "{vwui-color.black.value}",
+        "value": "{vwui-color.primary-1.value}",
         "description": "Default Heading Color",
         "type": "color"
       },
       "on-dark": {
-        "value": "{vwui-color.white.value}",
+        "value": "{vwui-color.primary-2.value}",
         "description": "Heading Color on white",
         "type": "color"
       }
@@ -155,63 +181,63 @@
   "vwui-button": {
     "color": {
       "border": {
-        "primary": {
-          "value": "{vwui-color.white.value}"
+        "solid": {
+          "value": "{vwui-color.primary-2.value}"
         },
-        "primary-hover": {
-          "value": "{vwui-color.teal.value}"
+        "solid-hover": {
+          "value": "{vwui-color.secondary-1.value}"
         },
-        "primary-on-dark": {
-          "value": "{vwui-color.white.value}"
+        "solid-on-dark": {
+          "value": "{vwui-color.primary-2.value}"
         },
-        "primary-hover-on-dark": {
-          "value": "{vwui-color.black.value}"
+        "solid-hover-on-dark": {
+          "value": "{vwui-color.primary-1.value}"
         },
-        "secondary": {
-          "value": "{vwui-color.black.value}"
+        "ghost": {
+          "value": "{vwui-color.primary-1.value}"
         },
-        "secondary-hover": {
-          "value": "{vwui-color.black.value}"
+        "ghost-hover": {
+          "value": "{vwui-color.primary-1.value}"
         }
       },
       "text": {
         "primary": {
-          "value": "{vwui-color.black.value}"
+          "value": "{vwui-color.primary-1.value}"
         },
         "primary-hover": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         },
         "primary-on-dark": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         },
         "primary-hover-on-dark": {
-          "value": "{vwui-color.black.value}"
+          "value": "{vwui-color.primary-1.value}"
         },
         "secondary": {
-          "value": "{vwui-color.black.value}"
+          "value": "{vwui-color.primary-1.value}"
         },
         "secondary-hover": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         }
       },
       "background": {
         "primary": {
-          "value": "{vwui-color.black.value}"
+          "value": "{vwui-color.primary-1.value}"
         },
         "primary-hover": {
-          "value": "{vwui-color.teal.value}"
+          "value": "{vwui-color.secondary-1.value}"
         },
         "primary-on-dark": {
-          "value": "{vwui-color.black.value}"
+          "value": "{vwui-color.primary-1.value}"
         },
         "primary-hover-on-dark": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         },
         "secondary": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         },
         "secondary-hover": {
-          "value": "{vwui-color.white.value}"
+          "value": "{vwui-color.primary-2.value}"
         }
       }
     }

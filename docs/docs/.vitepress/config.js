@@ -1,14 +1,29 @@
-const ourStorySidebar = [{ text: "Our Story", link: "/about/our-story" }];
-const homeSideBar = [{ text: "Design Tokens", link: "/tokens/" }];
+const componentsSidebar = [
+  { text: "Components", link: "/components/" },
+  { text: "Button", link: "/components/button" },
+  { text: "Icons", link: "/components/icons" },
+];
+const homeSideBar = [
+  { text: "Design Tokens", link: "/tokens/" },
+  { text: "Components", link: "/components/" },
+];
+const tokensSideBar = [
+  { text: "Design Tokens", link: "/tokens/" },
+  { text: "Tokens List", link: "/tokens/tokens" },
+];
+
 module.exports = {
+  host: "localhost",
   title: "Blue Steel design system",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "tokens", link: "/Tokens/" },
+      { text: "Tokens", link: "/tokens/" },
+      { text: "Components", link: "/components/" },
     ],
     sidebar: {
-      "/about/": ourStorySidebar,
+      "/tokens/": tokensSideBar,
+      "/components/": componentsSidebar,
       "/": homeSideBar,
     },
   },

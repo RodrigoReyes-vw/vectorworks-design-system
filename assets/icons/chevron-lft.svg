@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VW/Icons/chevron-lft</title>
+    <defs>
+        <polygon id="path-1" points="17.25 24.0000001 5.24999997 12 17.25 -5.00000006e-08 18.75 1.42499996 8.17499998 12 18.75 22.575"></polygon>
+    </defs>
+    <g id="VW/Icons/chevron-lft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Group" mask="url(#mask-2)" fill="#000000">
+            <g id="🎨-color">
+                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

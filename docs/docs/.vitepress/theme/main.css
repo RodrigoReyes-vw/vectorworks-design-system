@@ -1,0 +1,8 @@
+.vwui-button {
+  background-color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #FFFFFF;
+  padding: 16px;
+}

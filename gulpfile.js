@@ -6,7 +6,7 @@ const autoprefixer = require("autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
 
 function css() {
-  return src("./assets/scss/main.scss")
+  return src("./assets/scss/blue_steel.scss")
     .pipe(
       sass({
         includePaths: ["./node_modules"],
@@ -15,7 +15,7 @@ function css() {
     )
     .pipe(postcss([autoprefixer()]))
     .pipe(sourcemaps.write())
-    .pipe(dest("dist/css/"));
+    .pipe(dest("./docs/docs/.vitepress/theme/"));
 }
 function createVariables() {
   return src("./assets/scss/tokens/exported-properties.scss")

@@ -1,0 +1,19 @@
+.vwui-icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color: currentColor;
+}
+
+.vwui-icon[data-size="small"] {
+  --icon-size: $vwui-icon-size-small;
+}
+.vwui-icon[data-size="medium"] {
+  --icon-size: $vwui-icon-size-small;
+}
+.vwui-icon[data-size="large"] {
+  --icon-size: $vwui-icon-size-large;
+}
+
+.vwui-icon[data-size="x-large"] {
+  --icon-size: $vwui-icon-size-x-large;
+}

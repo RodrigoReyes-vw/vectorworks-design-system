@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VW/Icons/close-circ-fill</title>
+    <defs>
+        <path d="M11.9999999,-5.00000006e-08 C5.39999997,-5.00000006e-08 -5.00000006e-08,5.39999997 -5.00000006e-08,11.9999999 C-5.00000006e-08,18.6 5.39999997,23.9999999 11.9999999,23.9999999 C18.6,23.9999999 23.9999999,18.6 23.9999999,11.9999999 C23.9999999,5.39999997 18.6,-5.00000006e-08 11.9999999,-5.00000006e-08 Z M17.55,16.2 L16.2,17.55 L12,13.35 L7.79999998,17.55 L6.44999998,16.2 L10.65,12 L6.44999998,7.79999998 L7.79999998,6.44999998 L12,10.65 L16.2,6.44999998 L17.55,7.79999998 L13.35,12 L17.55,16.2 Z" id="path-1"></path>
+    </defs>
+    <g id="VW/Icons/close-circ-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="Group" mask="url(#mask-2)" fill="#000000">
+            <g id="🎨-color">
+                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

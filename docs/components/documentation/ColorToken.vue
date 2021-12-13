@@ -26,7 +26,7 @@ export default {
       class="swatch"
       :style="{ backgroundColor: tokenVarName }"
     ></td>
-    <td width="600">{{ `vwui-${tokenName}` }}</td>
+    <td width="650">{{ `vwui-${tokenName}` }}</td>
     <td width="160" class="value">{{ tokenValue }}</td>
   </tr>
 </template>

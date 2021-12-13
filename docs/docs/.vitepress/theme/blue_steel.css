@@ -1,0 +1,136 @@
+.vwui-button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: 1px solid transparent;
+  background-color: var(--button-background-color);
+  color: var(--button-font-color);
+  border-color: var(--button-border-color);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.075em;
+  display: block;
+  transition: background-color 0.6s cubic-bezier(0.04, 0.91, 0.58, 1);
+  cursor: pointer;
+}
+.vwui-button:hover {
+  text-decoration: none;
+}
+
+.vwui-button[data-kind=ghost] {
+  --button-background-color: transparent;
+  --button-border-color: #000000;
+  --button-font-color: #000000;
+}
+.vwui-button[data-kind=ghost]:hover {
+  --button-background-color: #000000;
+  --button-border-color: #000000;
+  --button-font-color: #FFFFFF;
+}
+
+.vwui-button[data-kind=solid] {
+  --button-background-color: #000000;
+  --button-border-color: #000000;
+  --button-font-color: #FFFFFF;
+}
+.vwui-button[data-kind=solid]:hover {
+  --button-background-color: #00bcb4;
+  --button-border-color: #00bcb4;
+  --button-font-color: #FFFFFF;
+}
+
+.vwui-button[data-kind=ghost][data-inverted=true] {
+  --button-background-color: transparent;
+  --button-border-color: #FFFFFF;
+  --button-font-color: #FFFFFF;
+}
+.vwui-button[data-kind=ghost][data-inverted=true]:hover {
+  --button-background-color: #FFFFFF;
+  --button-border-color: #FFFFFF;
+  --button-font-color: #000000;
+}
+
+.vwui-button[data-kind=solid][data-inverted=true] {
+  --button-background-color: #FFFFFF;
+  --button-border-color: #FFFFFF;
+  --button-font-color: #000000;
+}
+.vwui-button[data-kind=solid][data-inverted=true]:hover {
+  --button-background-color: #00bcb4;
+  --button-border-color: #00bcb4;
+  --button-font-color: #FFFFFF;
+}
+
+.vwui-icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color: currentColor;
+}
+
+.vwui-icon[data-size=small] {
+  --icon-size: $vwui-icon-size-small;
+}
+
+.vwui-icon[data-size=medium] {
+  --icon-size: $vwui-icon-size-small;
+}
+
+.vwui-icon[data-size=large] {
+  --icon-size: $vwui-icon-size-large;
+}
+
+.vwui-icon[data-size=x-large] {
+  --icon-size: $vwui-icon-size-x-large;
+}
+
+.vwui-card {
+  width: 255px;
+  border-top: 5px solid #000000;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+.vwui-card img {
+  width: calc(100% + 48px);
+  height: auto;
+  max-width: unset;
+}
+.vwui-card p {
+  grid-column: 2;
+  text-align: center;
+}
+.vwui-card .vwui-button {
+  grid-column: 2;
+}
+
+.vwui-u-background-primary-1 {
+  background-color: #000000 !important;
+}
+
+.vwui-u-background-primary-2 {
+  background-color: #FFFFFF !important;
+}
+
+.vwui-u-background-neutral-20 {
+  background-color: #F2F2F3 !important;
+}
+
+.vwui-u-background-busy {
+  background-image: url("https://res.cloudinary.com/vectorworks-mktg/image/upload/v1639324178/Rodrigo_tests_/blue-steel/v3cizuepprlnswpcvbkk.jpg") !important;
+}
+
+.vwui-u-inset-2x {
+  padding: 16px;
+}
+
+.vwui-u-flow > * + * {
+  margin-bottom: var(--flow-space, 1em);
+}

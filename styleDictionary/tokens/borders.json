@@ -11,6 +11,11 @@
         "description": "smallest border width",
         "type": "borderWidth"
       },
+      "3": {
+        "value": "3px",
+        "description": "smallest border width",
+        "type": "borderWidth"
+      },
       "thick": {
         "value": "5px",
         "description": "smallest border width",
