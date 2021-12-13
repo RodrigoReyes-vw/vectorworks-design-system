@@ -29,7 +29,7 @@ export default {
     :height="height"
     x="0px"
     y="0px"
-    viewBox="0 0 50 50"
+    viewBox="0 0 25 25"
     :aria-labelledby="iconName"
     role="presentation"
   >

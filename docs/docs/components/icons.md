@@ -1,5 +1,7 @@
 <script setup>
     import IconToken from '../../components/documentation/IconToken.vue'
+     import IconListItem from '../../components/documentation/IconListItem.vue'
+     
 </script>
 ## Icons
 
@@ -42,6 +44,24 @@ Icons in the system have no strokes and are built with just fill, this fill colo
      <IconToken token-name="icon-size-x-large" token-value="100px"/>
     </tbody>
 </table>
+
+
+
+## Icons List
+
+<table class="token-pallette">
+    <tbody>    
+    <IconListItem 
+    icon-name="IconArrowLeftFill" icon-file-name="arrow-lft-box-fill.svg"/>
+    <IconListItem 
+    icon-name="IconArrowLeftBox" icon-file-name="arrow-lft-box.svg"/>
+        <IconListItem 
+    icon-name="IconArrowLeft" icon-file-name="arrow-lft.svg"/>
+    </tbody>
+</table>
+
+
+
 
 
 ### Accessibility
