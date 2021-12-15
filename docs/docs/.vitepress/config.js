@@ -2,7 +2,7 @@ const componentsSidebar = [
   { text: "Button", link: "/components/button" },
   { text: "Card", link: "/components/card" },
   { text: "Icons", link: "/components/icons" },
-  { text: "Form group", link: "/components/inputs" },
+  { text: "Form", link: "/components/inputs" },
 ];
 const homeSideBar = [
   { text: "Design Tokens", link: "/tokens/" },

@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>VW/Icons/arrow-lft-box</title>
-    <defs>
-        <path d="M-5.00000006e-08,-5.00000006e-08 L-5.00000006e-08,23.9999999 L23.9999999,23.9999999 L23.9999999,-5.00000006e-08 L-5.00000006e-08,-5.00000006e-08 Z M0.749999953,0.749999953 L23.25,0.749999953 L23.25,23.25 L0.749999953,23.25 L0.749999953,0.749999953 Z M9.29999999,12.3 L15.525,12.3 L15.525,11.55 L9.44999998,11.55 L12.75,8.24999998 L12.225,7.72499998 L7.94999998,12 L12.225,16.275 L12.75,15.75 L9.29999999,12.3 Z" id="path-1"></path>
-    </defs>
-    <g id="VW/Icons/arrow-lft-box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <mask id="mask-2" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <g fill-rule="nonzero"></g>
-        <g id="Group" mask="url(#mask-2)" fill="#000000">
-            <g id="🎨-color">
-                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
+<svg
+    xmlns="http://www.w3.org/2000/svg"    
+    x="0px"
+    y="0px"
+    viewBox="0 0 24 24"
+    aria-labelledby="arrow left box "
+    role="presentation"
+  >
+    <title  lang="en">arrow left box icon</title>
+
+    <g fill="currentColor">
+       <path
+    id="path-1_00000082345808228931756710000008380962557336343453_"
+    d="M0,0v24h24V0H0z M0.7,0.7h22.5v22.5H0.7V0.7z M9.3,12.3
+		h6.2v-0.8H9.4l3.3-3.3l-0.5-0.5L7.9,12l4.3,4.3l0.5-0.5L9.3,12.3z"
+  />
     </g>
-</svg>
+  </svg>

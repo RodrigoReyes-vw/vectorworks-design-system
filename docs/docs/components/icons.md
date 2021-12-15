@@ -52,11 +52,27 @@ Icons in the system have no strokes and are built with just fill, this fill colo
 <table class="token-pallette">
     <tbody>    
     <IconListItem 
-    icon-name="IconArrowLeftFill" icon-file-name="arrow-lft-box-fill.svg"/>
+    icon-name="IconArrowLeftFill" icon-file-name="arrow-lft-box-fill"/>
     <IconListItem 
-    icon-name="IconArrowLeftBox" icon-file-name="arrow-lft-box.svg"/>
-        <IconListItem 
-    icon-name="IconArrowLeft" icon-file-name="arrow-lft.svg"/>
+    icon-name="IconArrowLeftBox" icon-file-name="arrow-lft-box"/>
+     <IconListItem 
+    icon-name="IconArrowLeft" icon-file-name="arrow-lft"/>    
+     <IconListItem 
+    icon-name="IconArrowRightFill" icon-file-name="arrow-lft"/>
+      <IconListItem 
+    icon-name="IconArrowRight" icon-file-name="arrow-rt"/>
+     <IconListItem 
+    icon-name="IconArrowRightBox" icon-file-name="arrow-rt-box"/>
+     <IconListItem 
+    icon-name="IconAward" icon-file-name="award"/>
+     <IconListItem 
+    icon-name="IconBlog" icon-file-name="blog"/>
+     <IconListItem 
+    icon-name="IconCheckCircFill" icon-file-name="check-circ-fill"/>
+    <IconListItem 
+    icon-name="IconCheckCirc" icon-file-name="check-circ"/>
+    <IconListItem 
+    icon-name="IconCheck" icon-file-name="check"/>
     </tbody>
 </table>
 
