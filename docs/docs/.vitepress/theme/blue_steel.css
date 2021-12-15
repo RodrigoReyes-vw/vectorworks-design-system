@@ -111,6 +111,78 @@
   grid-column: 2;
 }
 
+.vwui-form-group {
+  --feedback-color: #000000;
+}
+.vwui-form-group .required-icon {
+  color: #DC3545;
+  display: none;
+}
+.vwui-form-group .support-message {
+  display: none;
+  color: var(--feedback-color);
+}
+
+.vwui-form-group[data-required=true] .required-icon {
+  display: inline-block;
+}
+
+.vwui-form-group[data-required=true] .required-icon {
+  display: inline-block;
+}
+
+.vwui-form-group[data-is-valid=true] {
+  --feedback-color: #05CE7C;
+}
+
+.vwui-form-group[data-is-valid=false] {
+  --feedback-color: #DC3545;
+}
+.vwui-form-group[data-is-valid=false] .support-message {
+  display: block;
+}
+
+.vwui-form-group-input input[type=text],
+.vwui-form-group-input input[type=email],
+.vwui-form-group-input input[type=password],
+.vwui-form-group-input select {
+  display: block;
+  width: 100%;
+  height: 36px;
+  font-family: "DIN";
+  font-size: 14px;
+  line-height: 1.5;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid var(--feedback-color);
+}
+.vwui-form-group-input input[type=text]::-moz-placeholder, .vwui-form-group-input input[type=email]::-moz-placeholder, .vwui-form-group-input input[type=password]::-moz-placeholder, .vwui-form-group-input select::-moz-placeholder {
+  color: #575A5B;
+  font-family: "DIN";
+}
+.vwui-form-group-input input[type=text]:-ms-input-placeholder, .vwui-form-group-input input[type=email]:-ms-input-placeholder, .vwui-form-group-input input[type=password]:-ms-input-placeholder, .vwui-form-group-input select:-ms-input-placeholder {
+  color: #575A5B;
+  font-family: "DIN";
+}
+.vwui-form-group-input input[type=text]::placeholder,
+.vwui-form-group-input input[type=email]::placeholder,
+.vwui-form-group-input input[type=password]::placeholder,
+.vwui-form-group-input select::placeholder {
+  color: #575A5B;
+  font-family: "DIN";
+}
+.vwui-form-group-input input[type=text]:focus,
+.vwui-form-group-input input[type=email]:focus,
+.vwui-form-group-input input[type=password]:focus,
+.vwui-form-group-input select:focus {
+  outline: none;
+  box-shadow: 0px 3px 0px 0px var(--feedback-color);
+}
+
 .vwui-u-background-primary-1 {
   background-color: #000000 !important;
 }
@@ -129,6 +201,10 @@
 
 .vwui-u-inset-2x {
   padding: 16px;
+}
+
+.vwui-u-inset-3x {
+  padding: 24px;
 }
 
 .vwui-u-flow > * + * {

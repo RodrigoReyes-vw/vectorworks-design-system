@@ -50,3 +50,10 @@ The naming structure for design tokens follows:
 - **Scale**: Describes size for a token, if applicable
 - **BreakPoint**: On what breakpoint is the token applied
 - **Surface**: On what background is the token applied
+
+| Category  | Property  | Concept  |  Variant |State   |  Scale |  BreakPoint | Surface   |
+|---        |---        |---       |---       |---     |---     |---          |---        |
+|           | color     |          |          | teal   |        |             |           |
+|           | color     | feedback |  success |        |        |             |           |
+|           | font      | size     |          |        |  62    |             |           |
+|---        |---        |---       |---       |---     |---     |---          |---        |

@@ -1,12 +1,12 @@
 const componentsSidebar = [
-  { text: "Components", link: "/components/" },
   { text: "Button", link: "/components/button" },
-  { text: "Icons", link: "/components/icons" },
   { text: "Card", link: "/components/card" },
+  { text: "Icons", link: "/components/icons" },
+  { text: "Form group", link: "/components/inputs" },
 ];
 const homeSideBar = [
   { text: "Design Tokens", link: "/tokens/" },
-  { text: "Components", link: "/components/" },
+  { text: "Components", link: "/components/button" },
 ];
 const tokensSideBar = [
   { text: "Design Tokens", link: "/tokens/" },
@@ -20,7 +20,7 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Tokens", link: "/tokens/" },
-      { text: "Components", link: "/components/" },
+      { text: "Components", link: "/components/button" },
     ],
     sidebar: {
       "/tokens/": tokensSideBar,

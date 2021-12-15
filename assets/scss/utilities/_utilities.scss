@@ -18,6 +18,10 @@
   padding: $vwui-space-two-x;
 }
 
+.vwui-u-inset-3x {
+  padding: $vwui-space-three-x;
+}
+
 .vwui-u-flow > * + * {
   margin-bottom: var(--flow-space, 1em);
 }

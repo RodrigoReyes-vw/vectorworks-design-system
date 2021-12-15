@@ -1,0 +1,65 @@
+.vwui-form-group {
+  --feedback-color: #{$vwui-color-primary-1};
+  .required-icon {
+    color: $vwui-color-feedback-error;
+    display: none;
+  }
+  .support-message {
+    display: none;
+    color: var(--feedback-color);
+  }
+}
+
+.vwui-form-group[data-required="true"] {
+  .required-icon {
+    display: inline-block;
+  }
+}
+
+.vwui-form-group[data-required="true"] {
+  .required-icon {
+    display: inline-block;
+  }
+}
+
+.vwui-form-group[data-is-valid="true"] {
+  --feedback-color: #{$vwui-color-feedback-success};
+}
+.vwui-form-group[data-is-valid="false"] {
+  --feedback-color: #{$vwui-color-feedback-error};
+  .support-message {
+    display: block;
+  }
+}
+
+.vwui-form-group-input {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-family: $vwui-font-family-din;
+    font-size: $vwui-font-size-87;
+    line-height: $vwui-font-line-height-4x;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: $vwui-space-one-x;
+    padding-right: $vwui-space-one-x;
+    // outline: none;
+    border: 0;
+    outline: none;
+    border-bottom: $vwui-border-width-normal solid var(--feedback-color);
+
+    &::placeholder {
+      color: $vwui-color-neutral-80;
+      font-family: $vwui-font-family-din;
+    }
+    &:focus {
+      // border: 1px solid $vwui-color-neutral-50;
+      outline: none;
+      box-shadow: 0px 3px 0px 0px var(--feedback-color);
+    }
+  }
+}
