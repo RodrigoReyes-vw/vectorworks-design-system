@@ -7,6 +7,7 @@ const componentsSidebar = [
 const homeSideBar = [
   { text: "Design Tokens", link: "/tokens/" },
   { text: "Components", link: "/components/button" },
+  { text: "Foundations", link: "/foundation/" },
 ];
 const tokensSideBar = [
   { text: "Design Tokens", link: "/tokens/" },
@@ -21,6 +22,7 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Tokens", link: "/tokens/" },
       { text: "Components", link: "/components/button" },
+      { text: "Foundations", link: "/foundation/" },
     ],
     sidebar: {
       "/tokens/": tokensSideBar,
