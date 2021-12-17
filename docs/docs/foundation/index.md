@@ -8,17 +8,17 @@ description: Vectorworks Design System
 ## Browser Support
 We support the last 2 versions of a browser, but we are dropping IE11
 
-### Safari:
+### Safari
 
 - Current Version: 14
 
 Suport: 14 and 13
 
-### Chrome and Edge:
+### Chromium Based Browsers
 
-- Current Chrome version is 86 but since they release a new version every other month we can just focus on the last 2 major versions, as for Edge since it's based on chromium there should be no changes with chrome, currently Edge is on v83
+- Current Chrome version is 86 but since they release a new version every other month we can just focus on the last 2 major versions, as for Edge since there should be no changes with chrome, currently Edge is on v83
 
-### Firefox:
+### Firefox
 
  Same case as Chrome too many versions, supporting the latest two should be ok, let's just not use any of the extra features that Firefox supports  (subgrid, gap) until there's wide support for it, or let's use them just as progressive enhancement 
 
@@ -91,7 +91,7 @@ the suggested widths for images that take the whole width are:
 - 750px
 - ~~375px~~
 
-![Image Sizes syntax](https://res.cloudinary.com/vectorworks/image/upload/v1604066078/design-system/C517RYNWgAEqwy5.jpg)
+<!-- ![Image Sizes syntax](https://res.cloudinary.com/vectorworks/image/upload/v1604066078/design-system/C517RYNWgAEqwy5.jpg) -->
 
 
 Using `sizes` and `srcset` we don't need to use 2x images, the browser will pick the right image based on the device and the information we use to describe the image.

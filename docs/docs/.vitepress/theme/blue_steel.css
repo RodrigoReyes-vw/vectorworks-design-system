@@ -118,7 +118,7 @@
   color: #DC3545;
   display: none;
 }
-.vwui-form-group .support-message {
+.vwui-form-group .feedback-message {
   display: none;
   color: var(--feedback-color);
 }
@@ -138,7 +138,7 @@
 .vwui-form-group[data-is-valid=false] {
   --feedback-color: #DC3545;
 }
-.vwui-form-group[data-is-valid=false] .support-message {
+.vwui-form-group[data-is-valid=false] .feedback-message {
   display: block;
 }
 
@@ -154,7 +154,6 @@
   line-height: 1.5;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 8px;
   padding-right: 8px;
   border: 0;
   outline: none;
@@ -181,6 +180,53 @@
 .vwui-form-group-input select:focus {
   outline: none;
   box-shadow: 0px 3px 0px 0px var(--feedback-color);
+}
+
+.vwui-form-group-input--checkbox {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-gap: 16px;
+  --checkbox-size: 24px;
+  align-items: center;
+}
+
+.vwui-form-group-input input[type=checkbox] {
+  display: grid;
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+}
+.vwui-form-group-input input[type=checkbox]:before {
+  content: "";
+  border-radius: 0.5em;
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  display: inline-block;
+  pointer-events: none;
+  border: 1px solid #A4A7A8;
+  grid-area: 1/1;
+}
+.vwui-form-group-input input[type=checkbox]:after {
+  content: "";
+  border-radius: 0.5em;
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  pointer-events: none;
+  grid-area: 1/1;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+  color: white;
+  background-color: #000000;
+}
+.vwui-form-group-input input[type=checkbox]:checked:after {
+  content: "";
+  transform: scale(1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' id='Layer_1' x='0' y='0' version='1.1' viewBox='0 0 24 24'%3E%3Cpath id='path-1_00000023997670586326164870000010982111034619991693_' fill='white' d='m9.2 18.9-6.7-6.7L4 10.7l5.2 5.2L20 5.1l1.5 1.5z' clip-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .vwui-u-background-primary-1 {

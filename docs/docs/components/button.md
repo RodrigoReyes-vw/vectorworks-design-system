@@ -9,7 +9,7 @@ import VwuiButton from '../../components/blueSteel/VwuiButton.vue'
 </script>
 
 # Button
-| Communicates an action that will occur when the user interacts 
+Communicates an action that will occur when the user interacts 
 <!-- the button lives here
 <vwui-button label="I am a button"/> -->
 

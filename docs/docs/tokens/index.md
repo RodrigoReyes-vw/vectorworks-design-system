@@ -26,20 +26,20 @@ code.
 - Allows the distribution of the Vectorworks's visual language across multiple platforms and properties
 - Ensures brand consistency across digital assets
 
-# Extensibility
+### Extensibility
 - Designers and developers have access to design tokens when creating custom components for their applications (within brand standards)  
-# Use When
+## Use When
 Design Tokens can be used by teams:
 - To create custom components that are visually aligned to the brand styles
 - To create new components that can be contributed back to the system
-# Don't Use When
+## Don't Use When
 
 - Don’t use design tokens to make modifications to an existing component. Instead, submit a request 
 to the team or talk to us.
 
 - Don’t use design tokens to only access a value or values when the token name does not match it's application(for example, don't use a 'color-background-button' token to style a border or an element that is not abutton). Instead create a local variable in your project or hardcode the desired value.
 
-# Naming Structure for Design Tokens
+## Naming Structure for Design Tokens
 
 The naming structure for design tokens follows:
 - **Category**: Top level that contains foundational elements such as text, color, spacing

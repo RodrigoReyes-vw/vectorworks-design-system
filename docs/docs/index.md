@@ -5,12 +5,9 @@ description: Vectorworks Design System
 ---
 
 
-# Welcome to BlueSteel
+# Welcome
 
-![Fenrir el lobito](https://res.cloudinary.com/vectorworks-mktg/image/upload/f_auto/blue-steel/docs-assets/qmxj1gvo2apblvxcokqy.jpg)
-
-
-Welcome the **Blue Steel** the Vectorworks Design System, this system  is based on our brand guidelines and consists of working code, design tools and assets as well as a as this documentation site, the System is maintained by the Web and Design teams, for any question, comments and suggestions, please reach out to [Rodrigo](mailto:rsanchez@vectorworks.net) by email or Slack.
+**Blue Steel** is the Vectorworks Design System, this system  is based on our brand guidelines and consists of working code, design tools and assets as well as a as this documentation site, the System is maintained by the Web and Design teams, for any question, comments and suggestions, please reach out to [Rodrigo](mailto:rsanchez@vectorworks.net) by email or Slack.
 
 
 ## Why?
@@ -22,10 +19,13 @@ Welcome the **Blue Steel** the Vectorworks Design System, this system  is based 
 ## For whom ?
 For the all the teams involved in the different  Web properties independent of their tech stack.
 ## The Stack 
-This System is based on SCSS and vanilla JS for compatibility across all the different teams in the company
+This System is based on CSS and vanilla JS for compatibility across all the different teams in the company
+
+
+![Fenrir el lobito](https://res.cloudinary.com/vectorworks-mktg/image/upload/f_auto/blue-steel/docs-assets/qmxj1gvo2apblvxcokqy.jpg)
+Built with 💜 and ☕ by the Web Team
+---
 
 
 
 
-
-Built with 💜 and 🍻 by the 🕸️ Team

@@ -1,23 +1,19 @@
 # Card
-<div class="vwui-u-background-primary-1 vwui-u-inset-2x">
-<article class="vwui-card vwui-u-flow">
-<img src="https://res.cloudinary.com/vectorworks-mktg/image/upload/f_auto/q_auto/blue-steel/zrartajyx11fvhapbl3n.jpg">
-<p>Sketch, draw, and model in a fully integrated BIM workflow.</p>
-<a class="vwui-button" 
-data-kind="solid"> 
-Go here</a>
+Linked, interactive surface that groups related information and/or actions associated with a singular subject or destination.
 
-</article>
-</div>
+
+Cards should always be used to link to other content, and the CSS class should be used on the link element to ensure that the entire card functions as a click target.
+
+
 
 
 <div class="vwui-u-background-neutral-20 vwui-u-inset-2x">
-<article class="vwui-card vwui-u-flow">
+<a class="vwui-card vwui-u-flow">
 <img src="https://res.cloudinary.com/vectorworks-mktg/image/upload/f_auto/q_auto/blue-steel/zrartajyx11fvhapbl3n.jpg">
 <p>Sketch, draw, and model in a fully integrated BIM workflow.</p>
-<a class="vwui-button" 
-data-kind="solid"> 
-Go here</a>
+    <div class="vwui-button" 
+    data-kind="solid"> 
+    Go here</div>
 
-</article>
+</a>
 </div>

@@ -12,9 +12,8 @@ import IconToken from '../../components/documentation/IconToken.vue'
 </script>
 # Tokens List
 
-## Table Of contents
 
-[[toc]]
+<!-- [[toc]] -->
 
 
 ## Colors
