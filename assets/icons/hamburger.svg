@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>VW/Icons/hamburger</title>
-    <defs>
-        <path d="M-5.00000006e-08,18.6 L23.9999999,18.6 L23.9999999,17.4 L-5.00000006e-08,17.4 L-5.00000006e-08,18.6 Z M-5.00000006e-08,5.39999997 L-5.00000006e-08,6.59999998 L23.9999999,6.59999998 L23.9999999,5.39999997 L-5.00000006e-08,5.39999997 Z" id="path-1"></path>
-    </defs>
-    <g id="VW/Icons/hamburger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <mask id="mask-2" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <g fill-rule="nonzero"></g>
-        <g id="Group" mask="url(#mask-2)" fill="#000000">
-            <g id="🎨-color">
-                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
-    </g>
+<svg
+    xmlns="http://www.w3.org/2000/svg"    
+    x="0px"
+    y="0px"
+    viewBox="0 0 24 24"
+    aria-labelledby="chevron down"
+    role="presentation"
+  >
+    <title  lang="en">chevron down</title>
+
+    <g fill="currentColor">
+	<path id="path-1_00000106114684331246602610000007402240494281937559_" d="M0,18.6h24v-1.2H0V18.6z M0,5.4v1.2h24V5.4H0z"/>
+</g>
 </svg>

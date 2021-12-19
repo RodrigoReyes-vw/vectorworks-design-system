@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>VW/Icons/full-screen</title>
-    <defs>
-        <path d="M17.25,1.57499996 L17.25,2.32499996 L23.25,2.32499996 L23.25,8.32499998 L24.0000001,8.32499998 L24.0000001,1.57499996 L17.25,1.57499996 Z M-5.00000006e-08,8.39999999 L0.749999953,8.39999999 L0.749999953,2.39999996 L6.74999998,2.39999996 L6.74999998,1.64999996 L-5.00000006e-08,1.64999996 L-5.00000006e-08,8.39999999 Z M23.25,21.675 L17.25,21.675 L17.25,22.425 L24.0000001,22.425 L24.0000001,15.675 L23.25,15.675 L23.25,21.675 Z M0.749999953,15.6 L-5.00000006e-08,15.6 L-5.00000006e-08,22.35 L6.74999998,22.35 L6.74999998,21.6 L0.749999953,21.6 L0.749999953,15.6 Z" id="path-1"></path>
-    </defs>
-    <g id="VW/Icons/full-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <mask id="mask-2" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <g fill-rule="nonzero"></g>
-        <g id="Group" mask="url(#mask-2)" fill="#000000">
-            <g id="🎨-color">
-                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
-    </g>
+<svg
+    xmlns="http://www.w3.org/2000/svg"    
+    x="0px"
+    y="0px"
+    viewBox="0 0 24 24"
+    aria-labelledby="chevron down"
+    role="presentation"
+  >
+    <title  lang="en">chevron down</title>
+
+    <g fill="currentColor">
+	<path id="path-1_00000020384171601616984570000010959215741634865571_" d="M17.2,1.6v0.8h6v6H24V1.6H17.2z M0,8.4h0.8v-6h6V1.6H0
+		V8.4z M23.2,21.7h-6v0.8H24v-6.7h-0.8V21.7z M0.7,15.6H0v6.8h6.8v-0.8h-6V15.6z"/>
+</g>
 </svg>

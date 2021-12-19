@@ -73,7 +73,82 @@ Icons in the system have no strokes and are built with just fill, this fill colo
     icon-name="IconCheckCirc" icon-file-name="check-circ"/>
     <IconListItem 
     icon-name="IconCheck" icon-file-name="check"/>
+    <IconListItem 
+    icon-name="IconChevronDown" icon-file-name="chevron-down"/>
+    <IconListItem 
+    icon-name="IconChevronLeftBoxFill" icon-file-name="chevron-lft-box-fill"/>
+    <IconListItem 
+    icon-name="IconChevronLeftBox" icon-file-name="chevron-lft-box"/>
+    <IconListItem 
+    icon-name="IconChevronLeft" icon-file-name="chevrosn-lft"/>
+    <IconListItem 
+    icon-name="IconChevronRightBoxFill" icon-file-name="chevron-rt"/>
+    <IconListItem 
+    icon-name="IconChevronRightBox" icon-file-name="chevron-rt"/>
+    <IconListItem 
+    icon-name="IconChevronRightDouble" icon-file-name="chevron-rt-dbl"/>
+    <IconListItem 
+    icon-name="IconChevronRight" icon-file-name="chevron-rt"/>
+    <IconListItem 
+    icon-name="IconClassroom" icon-file-name="classroom"/>
+    <IconListItem 
+    icon-name="IconCloseCircleFill" icon-file-name="close-circ-fill"/>
+    <IconListItem 
+    icon-name="IconCloseCircle" icon-file-name="close-circ"/>
+    <IconListItem 
+    icon-name="IconClose" icon-file-name="close"/>  
+    <IconListItem 
+    icon-name="IconDocument" icon-file-name="document"/> 
+    <IconListItem 
+    icon-name="IconFb" icon-file-name="fb"/>  
+    <IconListItem 
+    icon-name="IconFullScreen" icon-file-name="full-screen"/>
+     <IconListItem 
+    icon-name="IconHamburger" icon-file-name="hamburger"/>
+     <IconListItem 
+    icon-name="IconIg" icon-file-name="ig"/>
+    <IconListItem 
+    icon-name="IconImageCredit" icon-file-name="img-credit"/>
+     <IconListItem 
+    icon-name="IconInfoCircle" icon-file-name="info-circ"/>
+     <IconListItem 
+    icon-name="IconLogin" icon-file-name="login"/>
+     <IconListItem 
+    icon-name="IconMinusCircle" icon-file-name="minus-circ"/>
+    <IconListItem 
+    icon-name="IconPano360" icon-file-name="pano-360"/>
+    <IconListItem 
+    icon-name="IconPlayButtonBoxFill" icon-file-name="play-btn-box-fill"/>
+    <IconListItem 
+    icon-name="IconPlayButtonBox" icon-file-name="play-btn-box"/>
+    <IconListItem 
+    icon-name="IconPlayButton" icon-file-name="play-btn"/>
+     <IconListItem 
+    icon-name="IconPlusCircleFill" icon-file-name="plus-circ-fill"/>
+     <IconListItem 
+    icon-name="IconPlusCircle" icon-file-name="plus-circ"/>
+    <IconListItem 
+    icon-name="IconPlus" icon-file-name="plus"/>
+    <IconListItem 
+    icon-name="IconQuestionCircle" icon-file-name="quest-circ-fill"/>
+     <IconListItem 
+    icon-name="IconQuotes" icon-file-name="quotes"/>
+     <IconListItem 
+    icon-name="IconRemoteAssist" icon-file-name="remote-assist"/>
+    <IconListItem 
+    icon-name="IconSearchCircle" icon-file-name="search-circ"/>
+    <IconListItem 
+    icon-name="IconSearch" icon-file-name="search"/>
+    <IconListItem 
+    icon-name="IconTwitter" icon-file-name="tw"/>
+     <IconListItem 
+    icon-name="IconVwV" icon-file-name="vw-v"/>
+    <IconListItem 
+    icon-name="IconWebinars" icon-file-name="webinars"/>
+    <IconListItem 
+    icon-name="IconYouTube" icon-file-name="yt"/>
     </tbody>
+    
 </table>
 
 

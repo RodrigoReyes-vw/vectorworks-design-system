@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>VW/Icons/chevron-rt-dbl</title>
-    <defs>
-        <path d="M0.0749999503,1.12499995 L9.67499999,11.9999999 L0.0749999503,22.875 L1.34999996,23.9999999 L12,11.9999999 L1.34999996,-5.00000006e-08 L0.0749999503,1.12499995 Z M13.275,-5.00000006e-08 L12,1.12499995 L21.675,11.9999999 L12,22.875 L13.275,23.9999999 L23.925,11.9999999 L13.275,-5.00000006e-08 Z" id="path-1"></path>
-    </defs>
-    <g id="VW/Icons/chevron-rt-dbl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <mask id="mask-2" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <g fill-rule="nonzero"></g>
-        <g id="Group" mask="url(#mask-2)" fill="#000000">
-            <g id="🎨-color">
-                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
-    </g>
+<svg
+    xmlns="http://www.w3.org/2000/svg"    
+    x="0px"
+    y="0px"
+    viewBox="0 0 24 24"
+    aria-labelledby="chevron down"
+    role="presentation"
+  >
+    <title  lang="en">chevron down</title>
+
+    <g fill="currentColor">
+	<path id="path-1_00000072275004712327766040000015829702730179004576_" d="M0.1,1.1L9.7,12L0.1,22.9L1.3,24L12,12L1.3,0L0.1,1.1z
+		 M13.3,0L12,1.1L21.7,12L12,22.9l1.3,1.1l10.6-12L13.3,0z"/>
+</g>
 </svg>

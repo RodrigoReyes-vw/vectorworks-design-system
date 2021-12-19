@@ -88,15 +88,21 @@
 }
 
 .vwui-card {
+  --card-bg: #FFFFFF;
+  --card-text: #000000;
   width: 255px;
   border-top: 5px solid #000000;
   display: flex;
   flex-direction: column;
   padding-left: 24px;
   padding-right: 24px;
-  background-color: #FFFFFF;
+  background-color: var(--card-bg);
   justify-content: center;
   align-items: center;
+  color: var(--card-text);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .vwui-card img {
   width: calc(100% + 48px);
@@ -107,8 +113,15 @@
   grid-column: 2;
   text-align: center;
 }
-.vwui-card .vwui-button {
-  grid-column: 2;
+.vwui-card:hover {
+  transform: translateY(-5px);
+  text-decoration: none;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+}
+
+.vwui-card[data-inverted=true] {
+  --card-bg: #323434;
+  --card-text: #FFFFFF;
 }
 
 .vwui-form-group {
@@ -239,6 +252,10 @@
 
 .vwui-u-background-neutral-20 {
   background-color: #F2F2F3 !important;
+}
+
+.vwui-u-background-neutral-95 {
+  background-color: #323434 !important;
 }
 
 .vwui-u-background-busy {

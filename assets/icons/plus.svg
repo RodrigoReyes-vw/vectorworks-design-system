@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>VW/Icons/plus</title>
-    <defs>
-        <polygon id="path-1" points="24.0000001 11.25 12.75 11.25 12.75 -5.00000006e-08 11.25 -5.00000006e-08 11.25 11.25 -5.00000006e-08 11.25 -5.00000006e-08 12.75 11.25 12.75 11.25 24.0000001 12.75 24.0000001 12.75 12.75 24.0000001 12.75"></polygon>
-    </defs>
-    <g id="VW/Icons/plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <mask id="mask-2" fill="white">
-            <use xlink:href="#path-1"></use>
-        </mask>
-        <g fill-rule="nonzero"></g>
-        <g id="Group" mask="url(#mask-2)" fill="#000000">
-            <g id="🎨-color">
-                <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
-    </g>
+<svg
+    xmlns="http://www.w3.org/2000/svg"    
+    x="0px"
+    y="0px"
+    viewBox="0 0 24 24"
+    aria-labelledby="plus circle"
+    role="presentation"
+  >
+    <title  lang="en">plus circle</title>
+
+    <g fill="currentColor">
+	<polygon id="path-1_00000029028835540762249980000006355285438640791731_" points="24,11.2 12.8,11.2 12.8,0 11.2,0 11.2,11.2 
+		0,11.2 0,12.8 11.2,12.8 11.2,24 12.8,24 12.8,12.8 24,12.8 	"/>
+</g>
 </svg>

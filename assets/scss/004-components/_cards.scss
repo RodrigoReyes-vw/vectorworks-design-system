@@ -1,36 +1,22 @@
-// .vwui-card {
-//   width: 255px;
-//   border-top: $vwui-border-width-thick solid $vwui-color-primary-1;
-//   display: grid;
-//   grid-template-columns: $vwui-space-three-x 1fr $vwui-space-three-x;
-//   grid-template-rows: repeat(3, auto);
-//   justify-items: center;
-//   background-color: $vwui-color-primary-2;
-//   img {
-//     width: 100%;
-//     height: auto;
-//     grid-column: 1/-1;
-//   }
-//   p {
-//     grid-column: 2;
-//     text-align: center;
-//     // margin: 0;
-//   }
-//   .vwui-button {
-//     grid-column: 2;
-//   }
-// }
-
 .vwui-card {
+  --card-bg: #{$vwui-color-primary-2};
+  --card-text: #{$vwui-color-primary-1};
   width: 255px;
   border-top: $vwui-border-width-thick solid $vwui-color-primary-1;
   display: flex;
   flex-direction: column;
   padding-left: $vwui-space-three-x;
   padding-right: $vwui-space-three-x;
-  background-color: $vwui-color-primary-2;
+  background-color: var(--card-bg);
   justify-content: center;
   align-items: center;
+  color: var(--card-text);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0);
+
+  cursor: pointer;
+
+  transition: transform $vwui-animation-duration-normal
+    $vwui-animation-easing-smooth;
   img {
     width: calc(100% + $vwui-space-three-x * 2);
     height: auto;
@@ -40,7 +26,14 @@
     grid-column: 2;
     text-align: center;
   }
-  .vwui-button {
-    grid-column: 2;
+  &:hover {
+    transform: translateY(-5px);
+    text-decoration: none;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
   }
+}
+
+.vwui-card[data-inverted="true"] {
+  --card-bg: #{$vwui-color-neutral-95};
+  --card-text: #{$vwui-color-primary-2};
 }
