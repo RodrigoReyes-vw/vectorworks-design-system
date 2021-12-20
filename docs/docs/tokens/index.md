@@ -37,23 +37,24 @@ Design Tokens can be used by teams:
 - Don’t use design tokens to make modifications to an existing component. Instead, submit a request 
 to the team or talk to us.
 
-- Don’t use design tokens to only access a value or values when the token name does not match it's application(for example, don't use a 'color-background-button' token to style a border or an element that is not abutton). Instead create a local variable in your project or hardcode the desired value.
+- Don’t use design tokens to only access a value or values when the token name does not match it's application(for example, don't use a `vwui-color-background-button` token to style a border or an element that is not a button). Instead create a local variable in your project.
 
 ## Naming Structure for Design Tokens
 
 The naming structure for design tokens follows:
+- **Prefix**: Used to identify the tokens that belong to the system.
 - **Category**: Top level that contains foundational elements such as text, color, spacing
-- **Property**: What are affecting on with the token, opacity,color,size.
+- **Property**: What are we affecting  with the token, opacity,color,size.
 - **Concept**: Meaning and use of  token
-- **Variant**: Describes the different options a token can have
-- **State**: Describes state for a token
-- **Scale**: Describes size for a token, if applicable
-- **BreakPoint**: On what breakpoint is the token applied
-- **Surface**: On what background is the token applied
+- **Variant**: Describes the different options a token can have 
+- **State**: Describes an interactive state for the token
+- **Scale**: Describes size/magnitude of  a token, if applicable
+- **BreakPoint**: Screensize where this token happens
+- **Surface**: the background where the token is applied
 
-| Category  | Property  | Concept  |  Variant |State   |  Scale |  BreakPoint | Surface   |
-|---        |---        |---       |---       |---     |---     |---          |---        |
-|           | color     |          |          | teal   |        |             |           |
-|           | color     | feedback |  success |        |        |             |           |
-|           | font      | size     |          |        |  62    |             |           |
-|---        |---        |---       |---       |---     |---     |---          |---        |
+| Prefix    | Category  | Property  | Concept  |  Variant |State   |  Scale |  BreakPoint | Surface   |
+|---        |---        |---        |---       |---       |---     |---     |---          |---        |
+|  vwui     |  color    |           |          |          | teal   |        |             |           |
+|  vwui     |  color    |           | feedback |  success |        |        |             |           |
+|  vwui     |    font   |           | size     |          |        |  62    |             |           |
+|           |---        |---        |---       |---       |---     |---     |---          |---        |

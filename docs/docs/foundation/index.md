@@ -6,24 +6,27 @@ description: Vectorworks Design System
 # Foundations 
 
 ## Browser Support
-We support the last 2 versions of a browser, but we are dropping IE11
+We support the latest two versions of the most popular browsers except Internet Explorer.
+
+::: warning
+We no longer support Internet Explorer 11. So no need to worry about it and welcome ES6.
+:::
 
 ### Safari
 
-- Current Version: 14
+- Current Version: 15
 
-Suport: 14 and 13
+Support: 14 and 15
 
 ### Chromium Based Browsers
 
-- Current Chrome version is 86 but since they release a new version every other month we can just focus on the last 2 major versions, as for Edge since there should be no changes with chrome, currently Edge is on v83
+- Current Chrome version is 86 but since they release a new version every other month we can just focus on the latest 2 major versions, as for Edge there should be no difference with chrome, currently Edge is on v83
 
 ### Firefox
 
  Same case as Chrome too many versions, supporting the latest two should be ok, let's just not use any of the extra features that Firefox supports  (subgrid, gap) until there's wide support for it, or let's use them just as progressive enhancement 
 
 To validate compatibility we can load our Google analytics on [caniuse](https://caniuse.com/)  and verify, the following image is an example of this, it shows that 98.57% of our users support *custom properties* 
-
 
 ## Breakpoints
 
@@ -73,10 +76,6 @@ $s-breakpoint--lg: 1200px !default;
 $s-breakpoint--xl: 1440px !default;
 ```
 
-
----
-
----
 
 ## Images
 

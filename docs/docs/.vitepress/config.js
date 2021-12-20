@@ -17,6 +17,9 @@ const tokensSideBar = [
 module.exports = {
   host: "localhost",
   title: "Blue Steel design system",
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
